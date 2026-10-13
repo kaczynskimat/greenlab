@@ -1,3 +1,6 @@
+## LeetCode Problems:
+16 Problems - 8 Easy - 8 Medium
+
 | Guideline ID | Family             | Difficulty | LeetCode # | Problem Name                                    | LeetCode URL |
 |--------------|--------------------|------------|------------|-------------------------------------------------|--------------|
 | G1           | Code Optimization	 | Easy	      | #643	      | Maximum Average Subarray I                      | 	https://leetcode.com/problems/maximum-average-subarray-i/        |
