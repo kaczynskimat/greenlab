@@ -4,7 +4,7 @@
 # G18: Use memoization to avoid repeated execution of expensive pure functions
 # -------------------------------------------------
 
-# PROBLEM 1 (100ms) - original LeetCode solution 5
+# PROBLEM 1 (100ms) - original LeetCode solution
 class Solution:
     def print_num(self,n):
         if n==0:
@@ -18,7 +18,7 @@ class Solution:
     def fib(self, n: int) -> int:
          return self.print_num(n)
 
-# PROBLEM 2 (92ms) - original LeetCode solution 6
+# PROBLEM 2 (92ms) - original LeetCode solution
 class Solution:
     def fib(self, n: int) -> int:
         if n == 0:
@@ -30,7 +30,7 @@ class Solution:
             return f(x-1) + f(x-2)
         return f(n)
 
-# PROBLEM 3 (120ms) - original LeetCode solution 12
+# PROBLEM 3 (120ms) - original LeetCode solution
 class Solution:
     def fib(self, n: int) -> int:
         if n == 0:
