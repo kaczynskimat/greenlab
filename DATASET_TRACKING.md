@@ -18,9 +18,9 @@
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:** |
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 2 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 3 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
-| **G6** | #26 (Remove Duplicates from Sorted Array) <br> *(Easy)* | Solution 1 | | |
-| **G6** | #26 (Remove Duplicates from Sorted Array) <br> *(Easy)* | Solution 2 | | |
-| **G6** | #26 (Remove Duplicates from Sorted Array) <br> *(Easy)* | Solution 3 | | |
+| **G6** | #383 (Ransom Note) <br> *(Easy)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:**|
+| **G6** | #383 (Ransom Note) <br> *(Easy)* | Solution 2 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:**|
+| **G6** | #383 (Ransom Note) <br> *(Easy)* | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:**|
 | **G6** | #442 (Find All Duplicates in an Array) <br> *(Medium)* | Solution 1 | | |
 | **G6** | #442 (Find All Duplicates in an Array) <br> *(Medium)* | Solution 2 | | |
 | **G6** | #442 (Find All Duplicates in an Array) <br> *(Medium)* | Solution 3 | | |

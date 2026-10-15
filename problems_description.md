@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | G3 | Code Optimization | Easy | #605 | Can Place Flowers | https://leetcode.com/problems/can-place-flowers/ |
 | G3 | Code Optimization | Medium | #15 | 3Sum | https://leetcode.com/problems/3sum/ |
-| G6 | Code Optimization | Easy | #26 | Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ |
+| G6 | Code Optimization | Easy | #383 | Ransom Note | https://leetcode.com/problems/ransom-note/ |
 
 ## Can Place Flowers
 
@@ -61,3 +61,27 @@ Constraints:
 
 3 <= nums.length <= 3000
 -105 <= nums[i] <= 105
+
+## Ransom Note
+
+Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
+
+Each letter in magazine can only be used once in ransomNote.
+
+Example 1:
+
+Input: ransomNote = "a", magazine = "b"
+Output: false
+Example 2:
+
+Input: ransomNote = "aa", magazine = "ab"
+Output: false
+Example 3:
+
+Input: ransomNote = "aa", magazine = "aab"
+Output: true
+
+Constraints:
+
+1 <= ransomNote.length, magazine.length <= 105
+ransomNote and magazine consist of lowercase English letters.
