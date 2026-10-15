@@ -1,24 +1,23 @@
-from collections import Counter
-from bisect import bisect_left, bisect_right
-
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
-        triplets = set()
-        counter = Counter(nums)
-        ns = sorted(counter.keys())
+        nums.sort()
+        res=[]
+        n=len(nums)
+        for i in range(n):
+            if i>0 and nums[i]==nums[i-1]:
+                continue
+            j=i+1
+            k=n-1
 
-        for i, ni in enumerate(ns):
-            if ni == 0:
-                if counter[ni] >= 3:
-                    triplets.add((ni, ni, ni))
-            elif counter[ni] >= 2 and -2 * ni in counter:
-                triplets.add((ni, ni, -2 * ni))
-            if ni < 0:
-                t = -ni
-                left = bisect_left(ns, t - ns[-1], i + 1)
-                right = bisect_right(ns, t // 2, left)
-                for nj in ns[left:right]:
-                    nk = t - nj
-                    if nk in counter and nk != nj:
-                        triplets.add((ni, nj, nk))
-        return [list(t) for t in triplets]
+            while j<k:
+                total = nums[i]+nums[j]+nums[k]
+                if total > 0:
+                    k-=1
+                elif total < 0:
+                    j+=1
+                else:
+                    res.append([nums[i],nums[j],nums[k]])
+                    j+=1
+                    while j<k and nums[j]==nums[j-1]:
+                        j+=1
+        return res

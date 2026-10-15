@@ -12,9 +12,9 @@
 | **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 1 | **Yes** (Mined) | **Baseline:** <br>**Refactored:** |
 | **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
 | **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:**  |
-| **G3** | #217 (Contains Duplicate) <br> *(Easy)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:** |
-| **G3** | #217 (Contains Duplicate) <br> *(Easy)* | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G3** | #217 (Contains Duplicate) <br> *(Easy)* | Solution 3 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
+| **G3** | #605 (Can Place Flowers) <br> *(Easy)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:** |
+| **G3** | #605 (Can Place Flowers) <br> *(Easy)* | Solution 2 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
+| **G3** | #605 (Can Place Flowers) <br> *(Easy)* | Solution 3 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:** |
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 2 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
 | **G3** | #15 (3Sum) <br> *(Medium)* | Solution 3 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
