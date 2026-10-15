@@ -18,7 +18,7 @@ class Solution:
         #    output[i] *= right
         #    right *= nums[i]
 
-        left[1:] = np.cumprod(values[:1])
+        left[1:] = np.cumprod(values[:-1])
         right[:-1] = np.cumprod(values[:0:-1])[::-1]
         output = left * right
         #return output
