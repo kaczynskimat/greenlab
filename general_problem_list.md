@@ -17,5 +17,5 @@
 | G19	         | Function Calls	    | Medium	    | #200	      | Number of Islands                               | 	https://leetcode.com/problems/number-of-islands/        |
 | G24	         | Other	             | Easy	      | #867	      | Transpose Matrix	                               | https://leetcode.com/problems/transpose-matrix/         |
 | G24	         | Other	             | Medium	    | #238	      | Product of Array Except Self	                   | https://leetcode.com/problems/product-of-array-except-self/         |
-| G28	         | Other	             | Easy	      | #905	      | Sort Array By Parity                            | 	https://leetcode.com/problems/sort-array-by-parity/        |
-| G28	         | Other              | 	Medium	   | #49	       | Group Anagrams                                  | https://leetcode.com/problems/group-anagrams/         |
+| G27	         | Other	             | Easy	      | #905	      | Sort Array By Parity                            | 	https://leetcode.com/problems/sort-array-by-parity/        |
+| G27	         | Other              | 	Medium	   | #49	       | Group Anagrams                                  | https://leetcode.com/problems/group-anagrams/         |

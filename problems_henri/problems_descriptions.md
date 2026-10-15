@@ -2,9 +2,9 @@
 
 | Guideline ID | Family | Difficulty | LeetCode Number # | Problem Name                 | LeetCode URL                                                |	
 |--------------|--------|------------|-------------------|------------------------------|-------------------------------------------------------------|
-| G24          | 	Other | Medium     | #238              | Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |
-| G28          | Other  | Easy       | #905              | Sort Array By Parity         | https://leetcode.com/problems/sort-array-by-parity/         |
-| G28          | Other  | Medium     | #49               | Group Anagrams               | https://leetcode.com/problems/group-anagrams/               |
+| G24          | Other  | Medium     | #238              | Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |
+| G27          | Other  | Easy       | #905              | Sort Array By Parity         | https://leetcode.com/problems/sort-array-by-parity/         |
+| G27          | Other  | Medium     | #49               | Group Anagrams               | https://leetcode.com/problems/group-anagrams/               |
 --------------------------------------
 
 
