@@ -3,7 +3,7 @@
 # -----------------------------------------------
 
 
-class Solutionv1(object):
+class SolutionV1(object):
     def sortedSquares(self, nums):
         nums.sort()
         n = len(nums)
@@ -38,7 +38,7 @@ class SolutionV2(object):
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------
-class Solutionv3(object):
+class SolutionV3(object):
     def sortedSquares(self, nums):
         nums.sort()
         n = len(nums)
@@ -53,4 +53,3 @@ class Solutionv3(object):
                 result[i] = nums[right] ** 2
                 right -= 1
         return result
-

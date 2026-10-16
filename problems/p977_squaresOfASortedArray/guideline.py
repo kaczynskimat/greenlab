@@ -3,7 +3,7 @@
 # -----------------------------------------------
 
 
-class Solutionv1(object):
+class SolutionV1(object):
     def sortedSquares(self, nums):
         n = len(nums)
         result = [0] * n
