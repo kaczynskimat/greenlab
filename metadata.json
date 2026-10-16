@@ -18,24 +18,24 @@
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Separate prefix and suffix product passes.",
+          "refactoring_description": "Replaced Python loops with NumPy cumulative products; converted output to a list."
         },
         "v2": {
           "class_name": "SolutionV2",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Prefix product array with a backward suffix pass.",
+          "refactoring_description": "Replaced Python loops with NumPy cumulative products; converted output to a list."
         },
         "v3": {
           "class_name": "SolutionV3",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Combined prefix and suffix updates in one loop.",
+          "refactoring_description": "Replaced Python loops with NumPy cumulative products; converted output to a list."
         }
       }
     },
@@ -57,24 +57,24 @@
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Character count keys with explicit dictionary initialization.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
         },
         "v2": {
           "class_name": "SolutionV2",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Character count keys with defaultdict grouping.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
         },
         "v3": {
           "class_name": "SolutionV3",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Sorted string keys with defaultdict grouping.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
         }
       }
     },
@@ -96,24 +96,24 @@
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Forward partition using temporary-variable swaps.",
+          "refactoring_description": "Replaced the working list with an unsigned integer array; converted output to a list."
         },
         "v2": {
           "class_name": "SolutionV2",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Separate even and odd lists built in two passes.",
+          "refactoring_description": "Replaced the working list with an unsigned integer array; converted output to a list."
         },
         "v3": {
           "class_name": "SolutionV3",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Two-pointer partition using temporary-variable swaps.",
+          "refactoring_description": "Replaced the working list with an unsigned integer array; converted output to a list."
         }
       }
     }
