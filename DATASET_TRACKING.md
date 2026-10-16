@@ -9,7 +9,7 @@
 | **G2** | #977 (Squares of a Sorted Array) <br> *(Easy)* | Solution 1 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
 | **G2** | #977 (Squares of a Sorted Array) <br> *(Easy)* | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
 | **G2** | #977 (Squares of a Sorted Array) <br> *(Easy)* | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 1 | **Yes** (Mined) | **Baseline:** <br>**Refactored:** |
+| **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 1 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
 | **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
 | **G2** | #240 (Search a 2D Matrix II) <br> *(Medium)* | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:**  |
 | **G3** | #217 (Contains Duplicate) <br> *(Easy)* | Solution 1 | | |
