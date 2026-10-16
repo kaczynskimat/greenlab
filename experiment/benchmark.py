@@ -22,7 +22,14 @@ def main():
         required=True,
     )
     parser.add_argument("--iterations", type=int, default=100)
+    parser.add_argument("--problem", type=int, default=322)
+    parser.add_argument("--variant", type=int, choices=[1, 2, 3], default=1)
     args = parser.parse_args()
+
+    if args.problem != 322 or args.variant != 1:
+        parser.error(
+            "Only problem 322, variant 1 is implemented in this pilot"
+        )
 
     if args.iterations < 1:
         parser.error("--iterations must be positive")
@@ -38,7 +45,7 @@ def main():
         / "problems_nikola"
         / folder
         / "322_coin_change"
-        / "problem_1.py"
+        / f"problem_{args.variant}.py"
     )
 
     Solution = load_solution(path)

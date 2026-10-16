@@ -1,0 +1,56 @@
+─────────────────────────────────────────────────────────────────
+       Welcome to the S2 Green Lab Cluster – VU Amsterdam
+─────────────────────────────────────────────────────────────────
+
+Access to this cluster is restricted to authorized users.
+
+Shared usage is allowed only outside of expriment time-slots.
+During experiment time-slots, only the booking owner has access.
+
+If you need access, please contact one of the administrators.
+
+─────────────────────────────────────────────────────────────────
+Treatment: original
+Iterations: 1000000
+Elapsed time: 0.964131 seconds
+Validation: PASS
+Energy consumption in joules: 32.24224853515625 for 1.2024081 sec of execution.
+
+{
+  "run_id": "coin_ssh_smoke_02_run_0_repetition_0",
+  "problem": 322,
+  "variant": 1,
+  "treatment": "original",
+  "iterations": 1000000,
+  "package_energy_j": 35.849609375,
+  "dram_energy_j": 15.87335205078125,
+  "benchmark_runtime_seconds": 0.964131,
+  "measurement_duration_seconds": 1.201,
+  "average_power_w": 29.849799646128226,
+  "elapsed_seconds": 1.476764834485948,
+  "avg_cpu_usage_percent": 86.09736508040262,
+  "avg_rss_bytes": 11190703.157894736,
+  "peak_rss_bytes": 13406208,
+  "rss_samples": 19,
+  "cpu_intervals": 18
+}
+
+__RESULT_JSON__
+{
+  "run_id": "coin_ssh_smoke_02_run_0_repetition_0",
+  "problem": 322,
+  "variant": 1,
+  "treatment": "original",
+  "iterations": 1000000,
+  "package_energy_j": 35.849609375,
+  "dram_energy_j": 15.87335205078125,
+  "benchmark_runtime_seconds": 0.964131,
+  "measurement_duration_seconds": 1.201,
+  "average_power_w": 29.849799646128226,
+  "elapsed_seconds": 1.476764834485948,
+  "avg_cpu_usage_percent": 86.09736508040262,
+  "avg_rss_bytes": 11190703.157894736,
+  "peak_rss_bytes": 13406208,
+  "rss_samples": 19,
+  "cpu_intervals": 18
+}
