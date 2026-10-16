@@ -1,3 +1,5 @@
+from collections import Counter
+
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
@@ -33,9 +35,6 @@ class SolutionV2:
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------
-from collections import Counter
-
-
 class SolutionV3:
     def findDuplicates(self, nums: list[int]) -> list[int]:
         if len(nums) == 1:
