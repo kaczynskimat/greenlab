@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
-class Solution:
+class SolutionV1:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         if len(nums) < 3:
             return []
@@ -40,7 +40,7 @@ class Solution:
 # -----------------------------------------------
 # Variation 2:
 # -----------------------------------------------    
-class Solution:
+class SolutionV2:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         ans = [] 
@@ -75,7 +75,7 @@ class Solution:
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------    
-class Solution:
+class SolutionV3:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         res = []

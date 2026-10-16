@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
-class Solution:
+class SolutionV1:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
 
         list_magazine = list(magazine)
@@ -20,7 +20,7 @@ class Solution:
 # -----------------------------------------------
 from collections import defaultdict
 
-class Solution:
+class SolutionV2:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         
         mag_dict = defaultdict(int)
@@ -43,7 +43,7 @@ class Solution:
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------    
-class Solution:
+class SolutionV3:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
 
         counts_mag = [0] * 26

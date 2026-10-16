@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
-class Solution:
+class SolutionV1:
     def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         count = 0
         length = len(flowerbed)
@@ -25,7 +25,7 @@ class Solution:
 # -----------------------------------------------
 # Variation 2:
 # -----------------------------------------------
-class Solution:
+class SolutionV2:
     def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         if n == 0:
             return True
@@ -43,7 +43,7 @@ class Solution:
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------    
-class Solution:
+class SolutionV3:
     def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         if n == 0:
             return True 
