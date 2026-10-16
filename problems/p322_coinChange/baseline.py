@@ -1,14 +1,10 @@
-# # -------------------------------------------------
-# Coin Change Problem - baseline version
-# -------------------------------------------------
-# G18: Use memoization to avoid repeated execution of expensive pure functions
-# -------------------------------------------------
-
-# PROBLEM 1 (47ms) - Original LeetCode solution
+# -----------------------------------------------
+# Variation 1:
+# -----------------------------------------------
 from math import gcd
 
 
-class Solution:
+class SolutionV1:
     @staticmethod
     def coinChange(coins, target):
         if target == 0:
@@ -57,3 +53,56 @@ class Solution:
             ):
                 return True
         return False
+
+
+
+# -----------------------------------------------
+# Variation 2:
+# -----------------------------------------------
+class SolutionV2:
+    def coinChange(self, coins: list[int], amount: int) -> int:
+
+        def recurse(n):
+
+            if n == 0:
+                return 0
+            if n < 0:
+                return float("inf")
+
+            best = float("inf")
+
+            for c in coins:
+                best = min(best, recurse(n - c) + 1)
+
+            return best
+
+        result = recurse(amount)
+        return -1 if result == float("inf") else result
+
+# -----------------------------------------------
+# Variation 3:
+# -----------------------------------------------
+import math
+
+
+class SolutionV3:
+
+    def amountCollected(self, i, j, coins):
+        if j == 0:
+            return 0
+
+        if i >= len(coins):
+            return math.inf
+
+        res = self.amountCollected(i + 1, j, coins)
+
+        if j >= coins[i]:
+            res = min(res, 1 + self.amountCollected(i, j - coins[i], coins))
+
+        return res
+
+    def coinChange(self, coins: list[int], amount: int) -> int:
+        ans = self.amountCollected(0, amount, coins)
+        if ans == math.inf:
+            return -1
+        return ans

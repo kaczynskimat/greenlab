@@ -1,14 +1,11 @@
-# # -------------------------------------------------
-# Coin Change Problem - guideline-adherent version
-# -------------------------------------------------
-# G18: Use memoization to avoid repeated execution of expensive pure functions
-# -------------------------------------------------
-
-# PROBLEM 1 (47ms) - guideline modified solution
+# -----------------------------------------------
+# Variation 1:
+# -----------------------------------------------
 from math import gcd
 
 
-class Solution:
+
+class SolutionV1:
     @staticmethod
     def coinChange(coins, target):
         if target == 0:
@@ -70,3 +67,63 @@ class Solution:
 
         memo[key] = False
         return False
+
+
+# -----------------------------------------------
+# Variation 2:
+# -----------------------------------------------
+class SolutionV2:
+    def coinChange(self, coins: list[int], amount: int) -> int:
+
+        @cache
+        def recurse(n):
+
+            if n == 0:
+                return 0
+            if n < 0:
+                return float("inf")
+
+            best = float("inf")
+
+            for c in coins:
+                best = min(best, recurse(n - c) + 1)
+
+            return best
+
+        result = recurse(amount)
+        return -1 if result == float("inf") else result
+
+# -----------------------------------------------
+# Variation 3: 
+# -----------------------------------------------
+import math
+
+
+
+class SolutionV3:
+
+    def amountCollected(self, i, j, coins, dp):
+        if j == 0:
+            return 0
+
+        if i >= len(coins):
+            return math.inf
+
+        if dp[i][j] != -2:
+            return dp[i][j]
+
+        dp[i][j] = self.amountCollected(i + 1, j, coins, dp)
+        res = dp[i][j]
+
+        if j >= coins[i]:
+            dp[i][j] = min(res, 1 + self.amountCollected(i, j - coins[i], coins, dp))
+            res = dp[i][j]
+
+        return res
+
+    def coinChange(self, coins: list[int], amount: int) -> int:
+        dp = [[-2 for _ in range(amount + 1)] for _ in range(len(coins))]
+        ans = self.amountCollected(0, amount, coins, dp)
+        if ans == math.inf:
+            return -1
+        return ans
