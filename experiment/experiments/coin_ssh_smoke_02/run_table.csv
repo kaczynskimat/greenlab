@@ -1,5 +1,0 @@
-__run_id,__done,problem,variant,treatment,package_energy_j,dram_energy_j,benchmark_runtime_seconds,measurement_duration_seconds,average_power_w,avg_cpu_usage_percent,avg_rss_bytes,peak_rss_bytes,rss_samples
-run_0_repetition_0,TODO,322,1,original, , , , , , , , , 
-run_1_repetition_0,TODO,322,1,modified, , , , , , , , , 
-run_0_repetition_1,TODO,322,1,original, , , , , , , , , 
-run_1_repetition_1,TODO,322,1,modified, , , , , , , , , 
