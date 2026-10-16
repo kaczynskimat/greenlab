@@ -1,0 +1,121 @@
+{
+  "problems": {
+    "p605_canPlaceFlowers": {
+      "leetcode_id": 605,
+      "name": "Can Place Flowers",
+      "difficulty": "easy",
+      "guideline_id": "G3",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/can-place-flowers/",
+      "method_name": "canPlaceFlowers",
+      "modules": {
+        "baseline": "problems.p605_canPlaceFlowers.baseline",
+        "guideline": "problems.p605_canPlaceFlowers.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Iterates through the entire flowerbed counting plantable spots without early stopping.",
+          "refactoring_description": "Terminates the loop early as soon as count reaches n (G3 - Early termination)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Traverses the flowerbed with a while loop to find all plantable spots without early exit.",
+          "refactoring_description": "Terminates the while loop early as soon as plantable reaches n (G3 - Early termination)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Iterates through the entire array simulating flower placement without early exit.",
+          "refactoring_description": "Returns True immediately inside the loop once n reaches 0 (G3 - Early termination)."
+        }
+      }
+    },
+    "p15_3sum": {
+      "leetcode_id": 15,
+      "name": "3Sum",
+      "difficulty": "medium",
+      "guideline_id": "G3",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/3sum/",
+      "method_name": "threeSum",
+      "modules": {
+        "baseline": "problems.p15_3sum.baseline",
+        "guideline": "problems.p15_3sum.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search without breaking early when the fixed anchor element is positive.",
+          "refactoring_description": "Breaks outer loop early when nums[i] > 0 since sorted numbers cannot sum to zero (G3 - Loop optimization)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search continuing across all indices without early positive-anchor exit.",
+          "refactoring_description": "Adds early break when the fixed anchor exceeds zero (G3 - Loop optimization)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search iterating through all elements without early termination.",
+          "refactoring_description": "Breaks outer loop early when nums[i] > 0 and skips duplicate values (G3 - Loop optimization)."
+        }
+      }
+    },
+    "p383_ransomNote": {
+      "leetcode_id": 383,
+      "name": "Ransom Note",
+      "difficulty": "easy",
+      "guideline_id": "G6",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/ransom-note/",
+      "method_name": "canConstruct",
+      "modules": {
+        "baseline": "problems.p383_ransomNote.baseline",
+        "guideline": "problems.p383_ransomNote.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Converts magazine into a full list and mutates it with remove(), creating unnecessary list memory.",
+          "refactoring_description": "Compares character frequencies directly using set(ransomNote) and count() without allocating a list (G6 - Avoid storing unnecessary data)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Constructs two separate defaultdict(int) frequency hash tables for both magazine and ransomNote.",
+          "refactoring_description": "Builds only a single frequency map for magazine and decrements in-place, eliminating the second dictionary (G6 - Avoid storing unnecessary data)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Allocates two separate 26-element integer arrays to count letter frequencies for both strings.",
+          "refactoring_description": "Allocates a single 26-element array for magazine counts and decrements counts for ransomNote (G6 - Avoid storing unnecessary data)."
+        }
+      }
+    }
+  }
+}
