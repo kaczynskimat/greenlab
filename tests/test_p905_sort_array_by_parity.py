@@ -26,22 +26,32 @@ IMPLEMENTATIONS = [
 
 class TestSortArrayByParity:
     @pytest.mark.parametrize("solution_class", IMPLEMENTATIONS)
-    @pytest.mark.parametrize("nums, expected",
+    @pytest.mark.parametrize("nums",
                              [
                                  pytest.param(
-                                     [1, 2, 3, 4],
-                                     [24, 12, 8, 6],
-                                     id="positive-numbers"
+                                     [3, 1, 3, 4],
+                                     id="mixed-parity"
                                  ),
                                  pytest.param(
-                                     [0, 2, 0, 4],
-                                     [0, 0, 0, 0],
-                                     id="multiple-zeros"
+                                     [0, 3, 0, 2, 3],
+                                     id="zeros-and-duplicates"
+                                 ),
+                                 pytest.param(
+                                     [2, 4, 6, 8],
+                                     id="all-even"
+                                 ),
+                                 pytest.param(
+                                     [1, 3, 5, 7],
+                                     id="all-odd"
+                                 ),
+                                 pytest.param(
+                                     [1],
+                                     id="single-element"
                                  )
                              ]
                             )
 
-    def test_expected_output(self, solution_class, nums, expected):
+    def test_expected_output(self, solution_class, nums):
         solution = solution_class()
 
         actual = solution.sortArrayByParity(deepcopy(nums))

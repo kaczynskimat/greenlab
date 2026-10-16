@@ -42,6 +42,16 @@ class TestGroupAnagrams:
                                      ["ab", "ab", "ba"],
                                      [["ab", "ab", "ba"]],
                                      id="duplicates"
+                                 ),
+                                 pytest.param(
+                                     ["eat", "tea", "tan", "ate", "nat", "bat"],
+                                     [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]],
+                                     id="multiple-groups"
+                                 ),
+                                 pytest.param(
+                                     ["a", "b", "c"],
+                                     [["a"], ["b"], ["c"]],
+                                     id="no-anagrams"
                                  )
                              ]
                             )
@@ -52,4 +62,7 @@ class TestGroupAnagrams:
         actual = solution.groupAnagrams(deepcopy(nums))
 
         assert isinstance(actual, list)
-        assert actual == expected
+        assert all(isinstance(group, list) for group in actual)
+        assert sorted(sorted(group) for group in actual) == sorted(
+            sorted(group) for group in expected
+        )

@@ -34,9 +34,24 @@ class TestProductOfArrayExceptSelf:
                                      id="positive-numbers"
                                  ),
                                  pytest.param(
+                                     [0, 2, 3, 4],
+                                     [24, 0, 0, 0],
+                                     id="single-zero"
+                                 ),
+                                 pytest.param(
                                      [0, 2, 0, 4],
                                      [0, 0, 0, 0],
                                      id="multiple-zeros"
+                                 ),
+                                 pytest.param(
+                                     [-1, 2, -3, 4],
+                                     [-24, 12, -8, 6],
+                                     id="mixed-signed"
+                                 ),
+                                 pytest.param(
+                                     [2, 3],
+                                     [3, 2],
+                                     id="two-elements"
                                  )
                              ]
                             )
