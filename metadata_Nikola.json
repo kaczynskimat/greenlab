@@ -1,16 +1,16 @@
 {
   "problems": {
-    "p238_productOfArrayExceptSelf": {
-      "leetcode_id": 238,
-      "name": "Product of Array Except Self",
+    "p322_coinChange": {
+      "leetcode_id": 322,
+      "name": "Coin Change",
       "difficulty": "medium",
-      "guideline_id": "G24",
-      "guideline_family": "Other",
-      "problem_url": "TODO",
-      "method_name": "productExceptSelf",
+      "guideline_id": "G18",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/coin-change/",
+      "method_name": "coinChange",
       "modules": {
-        "baseline": "TODO",
-        "guideline": "TODO"
+        "baseline": "problems.p322_coinChange.baseline",
+        "guideline": "problems.p322_coinChange.guideline"
       },
       "variants": {
         "v1": {
@@ -19,15 +19,54 @@
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
           "baseline_description": null,
-          "refactoring_description": null
+          "refactoring_description": "Memoizes recursive findCombination states"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Recursive solution without memoization",
+          "refactoring_description": "Caches recursive subproblem results"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Recursive solution without dynamic-programming cache",
+          "refactoring_description": "Stores subproblem results in a DP table"
+        }
+      }
+    },
+    "p442_findAllDuplicates": {
+      "leetcode_id": 442,
+      "name": "Find All Duplicates in an Array",
+      "difficulty": "medium",
+      "guideline_id": "G6",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+      "method_name": "findDuplicates",
+      "modules": {
+        "baseline": "problems.p442_findAllDuplicates.baseline",
+        "guideline": "problems.p442_findAllDuplicates.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Unused intermediate key and value lists",
+          "refactoring_description": "Removes unused intermediate lists"
         },
         "v2": {
           "class_name": "SolutionV2",
           "baseline_smell_added_by_us": false,
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
-          "baseline_description": null,
-          "refactoring_description": null
+          "baseline_description": "Unused array length variable",
+          "refactoring_description": "Removes unused array length variable"
         },
         "v3": {
           "class_name": "SolutionV3",
@@ -35,19 +74,48 @@
           "baseline_origin": "leetcode_original",
           "guideline_origin": "manual_refactoring",
           "baseline_description": null,
-          "refactoring_description": null
+          "refactoring_description": "Replaces Counter-based counting with set membership"
+        }
+      }
+    },
+    "p509_fibonacciNumber": {
+      "leetcode_id": 509,
+      "name": "Fibonacci Number",
+      "difficulty": "easy",
+      "guideline_id": "G18",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/fibonacci-number/",
+      "method_name": "fib",
+      "modules": {
+        "baseline": "problems.p509_fibonacciNumber.baseline",
+        "guideline": "problems.p509_fibonacciNumber.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Memoizes recursive Fibonacci results using a per-call dictionary"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Caches the inner recursive function with functools.cache"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Caches the recursive Fibonacci helper with functools.cache"
         }
       }
     }
   }
 }
-
-Example for variant with injected code smell: (in baseline.py)
-        "v2": {
-           "class_name": "SolutionV2",
-           "baseline_smell_added_by_us": true,
-           "baseline_origin": "leetcode_with_injected_smell",
-           "guideline_origin": "leetcode_original".
-           "baseline_description": null,
-           "refactoring_description": null
-        }

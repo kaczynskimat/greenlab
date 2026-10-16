@@ -1,3 +1,6 @@
+from functools import cache
+import math
+
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
@@ -37,7 +40,7 @@ class SolutionV1:
         memo = {}
 
         for i in range(minVal, maxVal + 1):
-            if Solution.findCombination(
+            if SolutionV1.findCombination(
                 coins, 1, idx - 1, target - i * minCoin, i, memo
             ):
                 return i
@@ -59,7 +62,7 @@ class SolutionV1:
         if left == right:
             return False
         for k in range(target // coins[right] + 1):
-            if Solution.findCombination(
+            if SolutionV1.findCombination(
                 coins, left, right - 1, target - k * coins[right], maxCoins - k, memo
             ):
                 memo[key] = True
@@ -96,10 +99,6 @@ class SolutionV2:
 # -----------------------------------------------
 # Variation 3: 
 # -----------------------------------------------
-import math
-
-
-
 class SolutionV3:
 
     def amountCollected(self, i, j, coins, dp):
