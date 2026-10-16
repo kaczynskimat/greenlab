@@ -1,3 +1,5 @@
+import math
+
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
@@ -33,7 +35,7 @@ class SolutionV1:
         minVal = (target - 1) // (coins[idx - 1] + minCoin) + 1
         maxVal = target // minCoin
         for i in range(minVal, maxVal + 1):
-            if Solution.findCombination(coins, 1, idx - 1, target - i * minCoin, i):
+            if SolutionV1.findCombination(coins, 1, idx - 1, target - i * minCoin, i):
                 return i
         return -1
 
@@ -48,7 +50,7 @@ class SolutionV1:
         if left == right:
             return False
         for k in range(target // coins[right] + 1):
-            if Solution.findCombination(
+            if SolutionV1.findCombination(
                 coins, left, right - 1, target - k * coins[right], maxCoins - k
             ):
                 return True
@@ -82,9 +84,6 @@ class SolutionV2:
 # -----------------------------------------------
 # Variation 3:
 # -----------------------------------------------
-import math
-
-
 class SolutionV3:
 
     def amountCollected(self, i, j, coins):

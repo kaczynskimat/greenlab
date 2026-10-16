@@ -1,3 +1,5 @@
+from typing import List
+
 # -----------------------------------------------
 # Variation 1:
 # -----------------------------------------------
@@ -17,8 +19,6 @@ class SolutionV1:
 # -----------------------------------------------
 # Variation 2:
 # -----------------------------------------------
-from rpds import List
-
 class SolutionV2:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         ans = []
