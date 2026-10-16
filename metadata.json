@@ -6,11 +6,89 @@
       "difficulty": "medium",
       "guideline_id": "G24",
       "guideline_family": "Other",
-      "problem_url": "TODO",
+      "problem_url": "https://leetcode.com/problems/product-of-array-except-self/",
       "method_name": "productExceptSelf",
       "modules": {
-        "baseline": "TODO",
-        "guideline": "TODO"
+        "baseline": "problems.p238_productOfArrayExceptSelf.baseline",
+        "guideline": "problems.p238_productOfArrayExceptSelf.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p49_groupAnagrams": {
+      "leetcode_id": 49,
+      "name": "Group Anagrams",
+      "difficulty": "medium",
+      "guideline_id": "G27",
+      "guideline_family": "Other",
+      "problem_url": "https://leetcode.com/problems/group-anagrams/",
+      "method_name": "groupAnagrams",
+      "modules": {
+        "baseline": "problems.p49_groupAnagrams.baseline",
+        "guideline": "problems.p49_groupAnagrams.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p905_sortArrayByParity": {
+      "leetcode_id": 905,
+      "name": "Sort Array By Parity",
+      "difficulty": "easy",
+      "guideline_id": "G27",
+      "guideline_family": "Other",
+      "problem_url": "https://leetcode.com/problems/sort-array-by-parity/",
+      "method_name": "sortArrayByParity",
+      "modules": {
+        "baseline": "problems.p905_sortArrayByParity.baseline",
+        "guideline": "problems.p905_sortArrayByParity.guideline"
       },
       "variants": {
         "v1": {
@@ -41,13 +119,3 @@
     }
   }
 }
-
-Example for variant with injected code smell: (in baseline.py)
-        "v2": {
-           "class_name": "SolutionV2",
-           "baseline_smell_added_by_us": true,
-           "baseline_origin": "leetcode_with_injected_smell",
-           "guideline_origin": "leetcode_original".
-           "baseline_description": null,
-           "refactoring_description": null
-        }
