@@ -1,0 +1,160 @@
+{
+  "problems": {
+    "p3_longestSubstringWithoutRepeatingCharacters": {
+      "leetcode_id": 3,
+      "name": "Longest Substring Without Repeating Characters",
+      "difficulty": "medium",
+      "guideline_id": "G1",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "method_name": "lengthOfLongestSubstring",
+      "modules": {
+        "baseline": "problems/p3_longestSubstringWithoutRepeatingCharacters/baseline.py",
+        "guideline": "problems/p3_longestSubstringWithoutRepeatingCharacters/guideline.py"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p387_firstUniqueCharacterInAString": {
+      "leetcode_id": 387,
+      "name": "First Unique Character in a String",
+      "difficulty": "easy",
+      "guideline_id": "G1",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+      "method_name": "firstUniqChar",
+      "modules": {
+        "baseline": "problems/p387_firstUniqueCharacterInAString/baseline.py",
+        "guideline": "problems/p387_firstUniqueCharacterInAString/guideline.py"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p240_searchA2DMatrix": {
+      "leetcode_id": 240,
+      "name": "Search a 2D Matrix II",
+      "difficulty": "medium",
+      "guideline_id": "G2",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+      "method_name": "searchMatrix",
+      "modules": {
+        "baseline": "problems/p240_searchA2DMatrix/baseline.py",
+        "guideline": "problems/p240_searchA2DMatrix/guideline.py"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p977_squaresOfASortedArray": {
+      "leetcode_id": 977,
+      "name": "Squares of a Sorted Array",
+      "difficulty": "easy",
+      "guideline_id": "G2",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+      "method_name": "sortedSquares",
+      "modules": {
+        "baseline": "problems/p977_squaresOfASortedArray/baseline.py",
+        "guideline": "problems/p977_squaresOfASortedArray/guideline.py"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    }
+  }
+}
