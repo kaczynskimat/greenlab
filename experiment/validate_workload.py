@@ -59,29 +59,6 @@ def main():
         None,
     )
 
-    # Temporary fallback while the team merges metadata.json.
-    if problem is None:
-        for filename in (
-            "metadata_Catarina.json",
-            "metadata_Nikola.json",
-            "metadata_mateusz.json",
-        ):
-            path = Path(filename)
-            if not path.exists():
-                continue
-
-            other_metadata = json.loads(path.read_text())
-            problem = next(
-                (
-                    entry
-                    for entry in other_metadata.get("problems", {}).values()
-                    if int(entry["leetcode_id"]) == args.problem
-                ),
-                None,
-            )
-            if problem is not None:
-                break
-
     if problem is None:
         raise ValueError(f"Problem #{args.problem} not found in metadata")
 
