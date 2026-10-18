@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 1,
+  "repetition": 20,
+  "seed": 9417737461824649418,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "79a41ba35f412b196fea2a71c71d6de9c6c864b581f28a44c4ea3e5e402916e8",
+  "cases": [
+    {
+      "args": [
+        "c0a"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "1e222e32ce10402ed0caca40441b4"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "04"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "bde"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "023"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "d24e1dcc33423031abec03214"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "ba3db4bd3400a3d4e1a414a"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dd3a4e14beda4ddabdd0bb322c000241"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ba2a12c134b21bc"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "c44ce0e3a4121ee1add2a44bbc23cdb0"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "c"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "dca0bbb2a010d233e3b34"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "3b000ec"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "1"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "cc42dcd0c"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "2de41a3eeacd4ed2bbdb"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "c0dab2c0310a4bc0c"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "22d4abad11ad4c340c21bd"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "2d44c233c4cacb1cb20b3b10e1ee"
+      ],
+      "expected": 5
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 509,
+  "variant": 2,
+  "repetition": 92,
+  "seed": 6809180148324693671,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "1fb483ea88505f930b40b943ffa22413f3192e2400637cb8690c2aedf972c617",
+  "cases": [
+    {
+      "args": [
+        7
+      ],
+      "expected": 13
+    },
+    {
+      "args": [
+        12
+      ],
+      "expected": 144
+    },
+    {
+      "args": [
+        6
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        18
+      ],
+      "expected": 2584
+    },
+    {
+      "args": [
+        10
+      ],
+      "expected": 55
+    },
+    {
+      "args": [
+        3
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        6
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        2
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        19
+      ],
+      "expected": 4181
+    },
+    {
+      "args": [
+        0
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        11
+      ],
+      "expected": 89
+    },
+    {
+      "args": [
+        19
+      ],
+      "expected": 4181
+    },
+    {
+      "args": [
+        3
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        1
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        14
+      ],
+      "expected": 377
+    },
+    {
+      "args": [
+        4
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        14
+      ],
+      "expected": 377
+    },
+    {
+      "args": [
+        7
+      ],
+      "expected": 13
+    },
+    {
+      "args": [
+        5
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        9
+      ],
+      "expected": 34
+    }
+  ]
+}

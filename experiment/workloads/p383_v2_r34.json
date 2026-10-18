@@ -1,0 +1,152 @@
+{
+  "problem": 383,
+  "variant": 2,
+  "repetition": 34,
+  "seed": 12909039302257279103,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "2009d90dfcfa550e322167dab42e12bd0be9060c8d0758559810a609de5ab309",
+  "cases": [
+    {
+      "args": [
+        "d",
+        "adaabaacabaaaaedabbadbecbeaaa"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "bdeeeacbdabdcbaaececde",
+        "abaecabcabdccaccdbdbceccaee"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "b",
+        "aaabaabdaadcdececcbeebeb"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "ccbaccccdebdcacbca",
+        "acedcddba"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "deddebcac",
+        "c"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "cadacbab",
+        "bbacdbebdacaaaadebadcaeedbeedebedebbe"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "cbeeeacce",
+        "aadeedbdccbcdcaabebaaaeedbcadb"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "ceddcdacbdaccbeecddec",
+        "daaaedddadceedbccebae"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "bebdeaeccbaeeb",
+        "bdabadccadebcbceeaadb"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "dbcdbeddbcaeceeea",
+        "cacbdedccdadbdaadedbeaabdcbeeeecbebdaebcdbdec"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "eabccccbebdb",
+        "abcaadecba"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "edcedce",
+        "bacbaceebdceadacddcbcebe"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "ccadbebecb",
+        "abaadeeebdcaacdacbcdeddedbc"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "b",
+        "ccdcbaccdceecaadaaecacaabcab"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "eebbcdbdeadcbacaedaadd",
+        "ececcacacaedcbceeccd"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "cbbeeea",
+        "cca"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "bdaceaaacddccaabd",
+        "beabdbececbbea"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "cabaeecdeebddddaacaeeb",
+        "ceddceccedbcaabceeeccdddeeaebaaeced"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "aadbe",
+        "cedcbbddaedbaaececbdbbbed"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "dbbdbbbbabddeccbca",
+        "ccaabdccddbaab"
+      ],
+      "expected": false
+    }
+  ]
+}

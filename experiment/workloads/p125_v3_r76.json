@@ -1,0 +1,132 @@
+{
+  "problem": 125,
+  "variant": 3,
+  "repetition": 76,
+  "seed": 6047343033616869965,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "7ad7c00c84929ee9d2bf74dc67acc579c9b9d44e999c811c84d763e9b5500fa7",
+  "cases": [
+    {
+      "args": [
+        "wRD--e53 -2Au1"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "soX dbCjq9Lk"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "b221c1caaaaa?aaaaac1c122b"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "a2bb23cb3bc2aa12c233,332c21aa2cb3bc32bb2a"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        ";fcYIRMcUn fhA_ZuiVjPVcGBIihKcLuYJ:Mij-uejdvDNWZWYXk.v9uy1JIHAKoG5Uqa"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "VM_7zfj_Ei8sv5Ko .6a9xbE"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "4EdW"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "0lS9Kzjm01!u!-?rbxATb_6x3S;.d0wmdEy"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "7dM7y3ZkXumu:wWxFBU NW8o?S81S0r8URQFNwMwUtIxs?FAo Fqtckxx4xwfM?H ;Tv2sPPW?ENmZ9T4c"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "49_ui_v6lXuUp1aaxQ!eC2xZnXfN,Yv1iyKuzf_8DA9?ZjHUpbhrGJ.?wph7"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        ".1"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "2a22cccbb:bbccc22a2"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        ",Kt1;tqG0G;CA4!S,-vsA-NdY NOVz"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "iu1aBK4hm8Y57PN7elc?ZH.nocKZrYV?ZD.Y6EJlKL"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "sYk9WMLnoXm7ZRuq;syNxsEL"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "aa21c1ba11ca2baabaa,aabaab2ac11ab1c12aa"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "s,4ZGu74e7VIK5r!AyBpHA-jXT7HJ0WNii9YAoFz8!a;Buq?A6Hhf2FLbdWMItYecwlcgh!hQIdU"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "bba3ca12bb2aab32ab1.1ba23baa2bb21ac3abb"
+      ],
+      "expected": true
+    },
+    {
+      "args": [
+        "yW7KR_ uDHqqi-FwZhN9RlI,Ea0tMH0_6oqdaiS"
+      ],
+      "expected": false
+    },
+    {
+      "args": [
+        "UiolcceS ?;JBVE DFhIWcsdkP_NQWJRehaHTzYWqm3pOeYIkPUiX79KsNP-KlC,;zruA-P80AOazuMbgzn4i"
+      ],
+      "expected": false
+    }
+  ]
+}

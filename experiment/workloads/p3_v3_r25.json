@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 25,
+  "seed": 18267361030594697293,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "00de51bd0b4261db0d031dc8e38fe3cfd62097d4c0d8a97fc3628c32b76d01e1",
+  "cases": [
+    {
+      "args": [
+        "d2ec42a3ce1330a2aa4b1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "d323b4c1e400124ca"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "c12a1bacc31e1ea1c23414d42a2aa"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "3aae3"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "eae1dadddebd0213ec222113b444dcbe"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "e4cd4143d1a0dcd0a4a33411"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "d204b224"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "d3233d"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "becdd32a12"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "40ec4"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "c1ac10e0b0a10133e41"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "ca4"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "e44a1100aea"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "bb3a3dbcdad02ed0b1ceae0a13"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "2aab020b0431ea32ea1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "e0"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "2343ceb2031311cb3101ec"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "1ccea0"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "4a4a3"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "a21b212111dcd122eddbc334edcda2a"
+      ],
+      "expected": 5
+    }
+  ]
+}

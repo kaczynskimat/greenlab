@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 1,
+  "repetition": 36,
+  "seed": 6939356659034946817,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "d1731935b54dc98ba3cc53ea32b28391d7e82258300c44aa7b8692ee9cd5d98f",
+  "cases": [
+    {
+      "args": [
+        "bd4d1ae1e1dc43ccec"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "2c0eaccd3c10b0bbce3bc22"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b32cb4eca1b0ab4c2d1a31"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "42102b01313e20dcdcce"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "010bc320d0b1402e1cb"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "acbbc2a2bbe"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "2b2adcac4c43"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "bbcbba3a1c0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "ebc0b3ecc42e24342dbad32142"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "124cad4b32342b32e3a20"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "c031dcb0ee0a3be320c2a41b3ddcee"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "1d3d4031322034be0002e1bcc"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "d3b04b3e2e"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ed33"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "1ca2a433c31b0be2"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "042d2a"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "eca0ce"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "d2"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "1b33edbb01d"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "e1a404"
+      ],
+      "expected": 5
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 1,
+  "repetition": 96,
+  "seed": 1930548227986943234,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "06f0b3ca04601fbe076c819afa758b04575818237cad652b1fd3e6cfec6497a7",
+  "cases": [
+    {
+      "args": [
+        "a2144111a4da3012cba"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "4100d1c40c0dbcae12a4ba2caadcb43b4"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "120c401cedd2c02e3241e302bbde"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "2d3ba1abcc2403dc31c3a220a"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "1bede1"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "3b0c"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "023e2301a31b0ce02e024dc"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "ca3c204e3bbbad0c1b414db"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4cdbb"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "1aaee44de1bcb22e33433a1410d00"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "bdbb1e3db4143ee40"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "a3ea2c0a1cae0"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "d2d1"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "b0"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "bd3aecedb3c4d"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "4b104c0043ad13"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ddea0dce3ad"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b1aa3201dd4341ae40bcd1b1e4"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "3d122302eae00b3202c413a"
+      ],
+      "expected": 7
+    }
+  ]
+}

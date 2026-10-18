@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 3,
+  "seed": 15649542221421132826,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "0883cbc8118a8d280a9a7e1491b172da662daeecda0b3fac1ef1352acbc2463d",
+  "cases": [
+    {
+      "args": [
+        "e"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "0b2ac30e3"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "0e0434e421cbb03143ead10cbc2ab"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "aabad22"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "203beaa0b00a3aaecc3e4e2ad23d3b4b"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ee3bae24de01bebd33b3c4d3"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "debb40cca"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "4024014112c43bd12d34aacd"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "0ee412e14a0a4bc"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "a21bedad3eeeded"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ebacb20b2dc2a1bb2b2c"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ddac0a4a03ab2b03c4e"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4ecadeebbb3"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "4ad4"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "c0ccdcc42d33abaa1e3cdc0be4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "c1adcc3a"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "30233d3e2e0be1ede2aa41c4"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "3cdeb034c4eba1bbcc1a1a"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "bc423eb"
+      ],
+      "expected": 6
+    }
+  ]
+}

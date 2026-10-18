@@ -10,7 +10,7 @@ import random
 from collections import Counter
 from pathlib import Path
 
-SUPPORTED = (3, 15, 49, 238, 240, 322, 383, 387, 442, 509, 605, 905, 977)
+SUPPORTED = (3, 15, 49, 125, 200, 238, 240, 322, 383, 387, 442, 509, 605, 867, 905, 977)
 
 
 def coin_change_expected(coins, target):
@@ -73,6 +73,32 @@ def flowers_expected(flowerbed, n):
     return count >= n
 
 
+def palindrome_expected(s):
+    cleaned = ''.join(ch.lower() for ch in s if ch.isalnum())
+    return cleaned == cleaned[::-1]
+
+
+def islands_expected(grid):
+    rows, cols = len(grid), len(grid[0])
+    visited = set()
+    count = 0
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] != '1' or (r, c) in visited:
+                continue
+            count += 1
+            stack = [(r, c)]
+            visited.add((r, c))
+            while stack:
+                x, y = stack.pop()
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if 0 <= nx < rows and 0 <= ny < cols and grid[nx][ny] == '1' and (nx, ny) not in visited:
+                        visited.add((nx, ny))
+                        stack.append((nx, ny))
+    return count
+
+
 def make_case(problem, rng):
     if problem == 3:
         s = ''.join(rng.choices('abcde01234', k=rng.randint(0, 35)))
@@ -90,6 +116,19 @@ def make_case(problem, rng):
                 words.append(''.join(letters))
         rng.shuffle(words)
         return {'args': [words], 'expected': group_anagrams_expected(words)}
+    if problem == 125:
+        alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:;!?-_'
+        length = rng.randint(0, 100)
+        s = ''.join(rng.choices(alphabet, k=length))
+        if rng.random() < 0.35:
+            half = ''.join(rng.choices('abc123', k=rng.randint(0, 35)))
+            s = half + rng.choice(' ,.:!?') + half[::-1]
+        return {'args': [s], 'expected': palindrome_expected(s)}
+    if problem == 200:
+        rows, cols = rng.randint(1, 15), rng.randint(1, 15)
+        density = rng.uniform(0.15, 0.85)
+        grid = [['1' if rng.random() < density else '0' for _ in range(cols)] for _ in range(rows)]
+        return {'args': [grid], 'expected': islands_expected(grid)}
     if problem == 238:
         nums = [rng.randint(-4, 4) for _ in range(rng.randint(2, 12))]
         return {'args': [nums], 'expected': product_except_self_expected(nums)}
@@ -129,6 +168,11 @@ def make_case(problem, rng):
             bed.append(1 if (not bed or bed[-1] == 0) and rng.random() < 0.3 else 0)
         n = rng.randint(0, len(bed) // 2 + 1)
         return {'args': [bed, n], 'expected': flowers_expected(bed, n)}
+    if problem == 867:
+        rows, cols = rng.randint(1, 15), rng.randint(1, 15)
+        matrix = [[rng.randint(-100, 100) for _ in range(cols)] for _ in range(rows)]
+        expected = [[matrix[r][c] for r in range(rows)] for c in range(cols)]
+        return {'args': [matrix], 'expected': expected}
     if problem == 905:
         nums = [rng.randint(0, 100) for _ in range(rng.randint(1, 40))]
         # Reference output only; valid algorithms may return different parity partitions.

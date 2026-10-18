@@ -8,7 +8,7 @@ import subprocess
 import sys
 import time
 from pathlib import Path
-
+import hashlib
 import psutil
 
 
@@ -32,6 +32,32 @@ def main():
 
     if args.iterations < 1:
         parser.error("--iterations must be positive")
+
+    workload_path = (
+        ROOT / "experiment" / "workloads"
+        / f"p{args.problem}_v{args.variant}_r{args.repetition}.json"
+    )
+
+    with workload_path.open() as f:
+        workload = json.load(f)
+
+    if (
+        workload["problem"],
+        workload["variant"],
+        workload["repetition"],
+    ) != (args.problem, args.variant, args.repetition):
+        raise RuntimeError("Workload identifiers do not match the requested run")
+
+    case_bytes = json.dumps(
+        workload["cases"], sort_keys=True, separators=(",", ":")
+    ).encode()
+
+    workload_sha256 = hashlib.sha256(case_bytes).hexdigest()
+
+    if workload_sha256 != workload["input_sha256"]:
+        raise RuntimeError("Workload checksum mismatch")
+
+    workload_seed = workload["seed"]
 
     if not re.fullmatch(r"[A-Za-z0-9_-]+", args.run_id):
         parser.error("Invalid run ID")
@@ -185,6 +211,8 @@ def main():
         "treatment": args.treatment,
         "iterations": args.iterations,
         "repetition": args.repetition,
+        "workload_seed": workload_seed,
+        "workload_sha256": workload_sha256,
 
         "package_energy_j": package_energy,
         "dram_energy_j": dram_energy,

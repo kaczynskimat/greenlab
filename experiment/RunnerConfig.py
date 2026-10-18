@@ -16,21 +16,24 @@ import subprocess
 from PairedRunTableModel import PairedRunTableModel
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+import csv
+import uuid
 
 
 class RunnerConfig:
     ROOT_DIR = Path(__file__).resolve().parent
 
-    name: str = "coin_ssh_smoke_03"
+    name: str = "greenlab_full_20261019"
     results_output_path: Path = ROOT_DIR / "experiments"
     operation_type: OperationType = OperationType.AUTO
-    time_between_runs_in_ms: int = 1000
+    time_between_runs_in_ms: int = 5000
 
     SSH_DESTINATION = "gl_thesunenjoyers@gl3"
     SSH_JUMP = "gl_thesunenjoyers@145.108.225.3:42224"
     REMOTE_PROJECT = "/home/gl_thesunenjoyers/greenlab-project"
     REMOTE_PYTHON = "/home/gl_thesunenjoyers/greenlab-venv/bin/python"
     ITERATIONS = 1000000
+    CALIBRATION_FILE = ROOT_DIR / "calibration_gl3.csv"
 
     def __init__(self):
         EventSubscriptionController.subscribe_to_multiple_events([
@@ -51,14 +54,27 @@ class RunnerConfig:
         output.console_log("Green Lab remote configuration loaded")
 
     def create_run_table_model(self) -> RunTableModel:
-        problem = FactorModel("problem", [322])
-        variant = FactorModel("variant", [1])
+        with (self.ROOT_DIR.parent / "metadata.json").open() as f:
+            metadata = json.load(f)
+
+        problem_ids = sorted(
+            int(entry["leetcode_id"])
+            for entry in metadata["problems"].values()
+        )
+
+        if len(problem_ids) != 16 or len(set(problem_ids)) != 16:
+            raise ValueError(
+                f"Expected 16 unique problems, found {len(problem_ids)}"
+            )
+
+        problem = FactorModel("problem", problem_ids)
+        variant = FactorModel("variant", [1, 2, 3])
         treatment = FactorModel("treatment", ["original", "modified"])
 
         self.run_table_model = PairedRunTableModel(
             factors=[problem, variant, treatment],
             exclude_combinations=[],
-            repetitions=2,
+            repetitions=100,
             seed=20261019,
             data_columns=[
                 "package_energy_j",
@@ -70,19 +86,24 @@ class RunnerConfig:
                 "avg_rss_bytes",
                 "peak_rss_bytes",
                 "rss_samples",
+                "workload_seed",
+                "workload_sha256",
             ],
         )
         return self.run_table_model
 
     def before_experiment(self) -> None:
-        pass
+        self.calibration = self.load_calibration()
+        output.console_log(
+            f"Loaded {len(self.calibration)} gl3 iteration counts"
+        )
 
     def before_run(self) -> None:
         booking_end = datetime(
-            2026, 10, 20, 0, 0,
+            2026, 10, 19, 12, 0,
             tzinfo=ZoneInfo("Europe/Amsterdam"),
         )
-        safety_margin = timedelta(minutes=10)
+        safety_margin = timedelta(minutes=20)
         cutoff = booking_end - safety_margin
 
         now = datetime.now(ZoneInfo("Europe/Amsterdam"))
@@ -100,9 +121,20 @@ class RunnerConfig:
         treatment = context.execute_run["treatment"]
         problem = context.execute_run["problem"]
         variant = context.execute_run["variant"]
+        iterations = self.calibration[(int(problem), int(variant))]
 
-        # Include the experiment name to avoid collisions on gl3.
-        run_id = f"{self.name}_{context.run_dir.name}"
+        run_table_id = str(context.execute_run["__run_id"])
+
+        match = re.search(r"_repetition_(\d+)$", run_table_id)
+        if match is None:
+            raise ValueError(f"Cannot determine repetition from {run_table_id}")
+
+        repetition = int(match.group(1))
+
+        # Keep the Experiment Runner run ID stable, but give each
+        # remote measurement attempt a unique identifier.
+        attempt_id = uuid.uuid4().hex[:12]
+        run_id = f"{self.name}_{context.run_dir.name}_{attempt_id}"
 
         if not re.fullmatch(r"[A-Za-z0-9_-]+", run_id):
             raise ValueError(f"Invalid run ID: {run_id}")
@@ -114,7 +146,8 @@ class RunnerConfig:
             f"--treatment {shlex.quote(str(treatment))} "
             f"--problem {shlex.quote(str(problem))} "
             f"--variant {shlex.quote(str(variant))} "
-            f"--iterations {self.ITERATIONS} "
+            f"--repetition {repetition} "
+            f"--iterations {iterations} "
             f"--run-id {shlex.quote(run_id)} "
             f"&& printf '\\n__RESULT_JSON__\\n' "
             f"&& cat {shlex.quote('dryrun-results/' + run_id + '.json')}"
@@ -189,9 +222,66 @@ class RunnerConfig:
             "avg_rss_bytes": self.result["avg_rss_bytes"],
             "peak_rss_bytes": self.result["peak_rss_bytes"],
             "rss_samples": self.result["rss_samples"],
+            "workload_seed": self.result["workload_seed"],
+            "workload_sha256": self.result["workload_sha256"],
         }
 
     def after_experiment(self) -> None:
         pass
 
     experiment_path: Path = None
+
+    def load_calibration(self):
+        path = self.CALIBRATION_FILE
+
+        if not path.is_file():
+            raise RuntimeError(
+                f"Missing gl3 calibration file: {path}. "
+                "Run gl3 calibration before measurements."
+            )
+
+        counts = {}
+
+        with path.open(newline="") as f:
+            reader = csv.DictReader(f)
+
+            if reader.fieldnames != ["problem", "variant", "iterations"]:
+                raise ValueError(
+                    "Calibration CSV must have columns: "
+                    "problem,variant,iterations"
+                )
+
+            for row in reader:
+                problem = int(row["problem"])
+                variant = int(row["variant"])
+                iterations = int(row["iterations"])
+
+                if variant not in (1, 2, 3) or iterations < 1:
+                    raise ValueError(f"Invalid calibration row: {row}")
+
+                key = (problem, variant)
+
+                if key in counts:
+                    raise ValueError(f"Duplicate calibration: {key}")
+
+                counts[key] = iterations
+
+        with (self.ROOT_DIR.parent / "metadata.json").open() as f:
+            metadata = json.load(f)
+
+        expected = {
+            (int(problem["leetcode_id"]), variant)
+            for problem in metadata["problems"].values()
+            for variant in (1, 2, 3)
+    }
+
+        missing = expected - counts.keys()
+        extra = counts.keys() - expected
+
+        if missing or extra:
+            raise ValueError(
+                f"Calibration mismatch: missing={sorted(missing)}, "
+                f"extra={sorted(extra)}"
+            )
+
+        return counts

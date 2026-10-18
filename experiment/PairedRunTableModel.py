@@ -55,9 +55,30 @@ class PairedRunTableModel(RunTableModel):
                     f"Expected one original/modified pair for {key}"
                 )
 
-            rng.shuffle(pair)
             blocks.append(pair)
 
+        # Shuffle complete pairs, never individual measurements.
         rng.shuffle(blocks)
+
+        # Guarantee exactly equal original-first and modified-first counts.
+        # This is possible because the number of pairs is even.
+        if len(blocks) % 2 != 0:
+            raise ValueError(
+                "Exactly balanced treatment ordering requires "
+                "an even number of pairs"
+            )
+
+        first_treatments = (
+            ["original"] * (len(blocks) // 2)
+            + ["modified"] * (len(blocks) // 2)
+        )
+        rng.shuffle(first_treatments)
+
+        for pair, first_treatment in zip(blocks, first_treatments):
+            pair.sort(
+                key=lambda row: (
+                    str(row["treatment"]) != first_treatment
+                )
+            )
 
         return [row for block in blocks for row in block]

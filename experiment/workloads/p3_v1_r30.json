@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 1,
+  "repetition": 30,
+  "seed": 10015348507885037455,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "13cfe6f0f6f32a49a41986b38a7886bda42ec658ae9e5037fbd1257c796ca2fd",
+  "cases": [
+    {
+      "args": [
+        "cc4ea0ee23e114dbc2cdc3124d4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "e23b02"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "ee0bec3db4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ba23d"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "e4b1cb4a2"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "20c4d04b3e320"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ae4d2eecd142002d20d01"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "e"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "d2ee3d20a04b"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "a3e2cec3be"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "1bd40a1413cd4333"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "ad1cd0cdb1eea03c"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "3add"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "4bbd2140d23"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b3413d2c3ea132ecbb2bc301db4"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "c3ccb14"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "b2aae4db00bc3214ea"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "31cb4cbc2cc33124e1ade40001d10cc2"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "424124cddadd2"
+      ],
+      "expected": 5
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 387,
+  "variant": 3,
+  "repetition": 83,
+  "seed": 17724265162492265233,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "b34d8eb7c3812be6ad2d31d937727ffff3bda781eb776b5889768455f2172ba2",
+  "cases": [
+    {
+      "args": [
+        "affacfaccbdccabfafccdbaffacadbabaafededbfedeeaafbfe"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "cdedbcfecbfdbbeebfbecbdffebadfefdceddbcbbabbcc"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "dabfafd"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "ccdfaccaebdfcddbeeeebee"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "bcabbfafdfcfaabecffbfeafffdfdcddeaecbabcbdb"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "adebbeabbbfadebbedddabedfbfaefcebefdaec"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "bdbbdcedddbfcefeeeddbebbaebeefeecbaeafbdfdd"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "fcdedcfbfffcfcdaafbeefcf"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "adaecd"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "ceaacecdafeaaaadbcebdf"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "ddebfcaeacdffffdbeacebddbaabfb"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "faedecfbcececbdcbeefeffeecebbcedceaaebeaaaabebdcbeabfcc"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "cceaffdbbdebdfbedbcbdbebffdfbfbcbdebfcfedcfaccbecba"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "cdecbbadbddfeecedfbbdcaadabfceeefbecacfffeabbeffcfaa"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "cefdfffceebdffdfbcec"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "fdbefdbddbdbcefaaaefbdcccfbeefddabbeb"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "efcdbccffdeedbbaedcb"
+      ],
+      "expected": 15
+    },
+    {
+      "args": [
+        "fafeddbafeefaffdadefacdecdfceefcfd"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "dbaabacedcdffeceafcdeaeebfbccbbeddddab"
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        "ccbaafdfbdcffcedcdaaacabebbdedb"
+      ],
+      "expected": -1
+    }
+  ]
+}

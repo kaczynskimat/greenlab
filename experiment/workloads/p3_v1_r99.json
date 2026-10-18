@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 1,
+  "repetition": 99,
+  "seed": 9609084693923652768,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "c16158bd5cdc850b2dd8e5938fa543139d73ed8bfc908294d643bb294181995d",
+  "cases": [
+    {
+      "args": [
+        "1bd4aac220b4440ccc"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "e"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "ba4c4bcabc43dc4c203bbac"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "aaaedab0203dd01db"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b4b0b0e30003e3cee00d1aa22be10"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "1d0a3a20e1add4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "d3011acad004ab"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "aed3b4dd"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "d2dd21dd421ac021d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4c01e43ceaeb"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "c304b2dbbe30eb0c233b04010c43403"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "431c2da4c43ebdb11ea0de34a10d4"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "002b121a202434db2eccb2c24a111"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "0c2d2cbd1d"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "111b3a3b3c4e03bb0ed4b22"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "a3edb10dbcd30010daa320d44d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dbb3d44cea22e2baaedee"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "e3dc43a24a0d4320a222dba4ab21bc0e23"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "ddb"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "4e11ad"
+      ],
+      "expected": 3
+    }
+  ]
+}

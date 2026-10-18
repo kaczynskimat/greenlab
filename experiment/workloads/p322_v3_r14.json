@@ -1,0 +1,229 @@
+{
+  "problem": 322,
+  "variant": 3,
+  "repetition": 14,
+  "seed": 4242733860815539853,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "71f33cfee49d7df3c98cd179b08e286b1ee48ce0a644525f0dd8fc89e65223aa",
+  "cases": [
+    {
+      "args": [
+        [
+          3,
+          7,
+          8
+        ],
+        6
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        [
+          8,
+          9
+        ],
+        14
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          1,
+          7,
+          10,
+          11
+        ],
+        13
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        [
+          2,
+          9,
+          11
+        ],
+        21
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        [
+          2,
+          7,
+          11
+        ],
+        5
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          4,
+          7,
+          8
+        ],
+        4
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          6,
+          12
+        ],
+        13
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          6,
+          10
+        ],
+        2
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          4,
+          6,
+          9,
+          11
+        ],
+        20
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        [
+          3,
+          8
+        ],
+        9
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        [
+          7,
+          9
+        ],
+        10
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          4,
+          5
+        ],
+        4
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          5,
+          8
+        ],
+        13
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        [
+          5,
+          6,
+          10
+        ],
+        21
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        [
+          4,
+          7,
+          10
+        ],
+        4
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          1,
+          4,
+          9,
+          12
+        ],
+        4
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          1,
+          2,
+          4,
+          6
+        ],
+        4
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        [
+          2,
+          8,
+          9
+        ],
+        21
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        [
+          2,
+          11
+        ],
+        3
+      ],
+      "expected": -1
+    },
+    {
+      "args": [
+        [
+          4,
+          5,
+          9,
+          11
+        ],
+        12
+      ],
+      "expected": 3
+    }
+  ]
+}

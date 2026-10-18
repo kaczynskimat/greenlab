@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 2,
+  "repetition": 80,
+  "seed": 15458366164922354395,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "21ba38848f48331683b099ba9e890f215d95769375095e253a620ce072b5e06f",
+  "cases": [
+    {
+      "args": [
+        "04d3ecdc0d32cc2d2a42b"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "333cecc3ec0214"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "a4e4b43423d001220e3db"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "e224"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "02e13dbe"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "b4"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "a33c4c2bbba3e4de30d4a0e04bb"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "44abd42013bbc4bbd3ec2ac24010b"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "04c"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "a4e142aeea4bd3a0d2d4204ad1bc21be"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "3c3ab0bb01addcde0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "21b404d4cd4c1023134c133ec2"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4de0423a03ccc43b3a1a110ee"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "1ea22b2d22cedb2e10443e333a24432"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "2dddea0c3cb4a4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b3ada1aa2"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "ee1b10a"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "014aae132eead1a1da"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "aa"
+      ],
+      "expected": 1
+    }
+  ]
+}

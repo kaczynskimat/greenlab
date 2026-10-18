@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 2,
+  "repetition": 46,
+  "seed": 13657670559317447246,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "ef67aa583d732dd8af4fe0eb7497672dd5ae1427e297f2395e41edfe547c92c2",
+  "cases": [
+    {
+      "args": [
+        "2103230"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "01d23dcd324"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "bd2bed2014ccad4133"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "1dba0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "e1b323ce1c424241de033bd12c22d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4d1"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "4de2edd4ddc0adcdde121de3a4a22c23d1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "bdb02b4d303cc"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "a022b0bd03ee1"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "42ed"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "e41c43cd4d3"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "a42b13c0314accca14c2b3cd"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "2ebea4d32eddce132c"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dcce2ecce1c30"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "c44"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "1a4ba2b10e0111d002e2033ed043"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "c224d2e024e43b1c0ecc1bebe204dcbde24"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expected": 1
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 98,
+  "seed": 1693724982200406015,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "f7e703cf3273a00cf877e2df4ab216f103b3bcb0b59e9165cf5650a91a4d30b7",
+  "cases": [
+    {
+      "args": [
+        "eed030dae2bdcbc0ccc12c2"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "01ad03a13b4eae30e3bc2422"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "2e314e4ba0dc0bb1e3e014ac"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4e02e1e0243cc3a32b23"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "0ba2e0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "cceae240eb00e1eac0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "3a1004ec0ed2e2d2a31ebaca1e4ece"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "de3aeb2daaa1a242a44de"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "23d22223"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "03a40d"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "2c21dba2"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "e3de4d220cbae104ee1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "1eeacb3442e20132103beba4a22332e4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "2d34b4c010ded2cc112cc0acd1ded1e"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "4c0ba21caa0b34de32dc21cccd0"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "233bc234cb0c4b2b4ecacab1a32"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b34"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "ecaddcc"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "d4eee0a44ce"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "ae11d"
+      ],
+      "expected": 3
+    }
+  ]
+}

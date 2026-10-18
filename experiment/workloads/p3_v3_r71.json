@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 71,
+  "seed": 15884360474438152568,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "568d3f63d53fa16e1aa304c92ded955a0c660066104b5d9859b1578260434012",
+  "cases": [
+    {
+      "args": [
+        "0a4204a2042c44a2"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "e0c3dbdbbbbbad1014b1023c4ae"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "ed14cd3343b4e03e4204b4"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "10402ab1e121cb"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "d1e0bc"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "102133100daee3b"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "e0bcd"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "c"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "3"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "321eaaedb1bedd01c42ee0edbda"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "adeaed1ebb1d204b343cc0a00cce1b"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "21e3bb20c2e4ede32eab412c2"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dbe3030eaca1cb1"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "03d1"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "20a2a4ccca1e4b3a"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4a044e3aabb42a3ada"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "0400c0"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "42d4d44"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "24e41e1ae0ab4cb0a4a2"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b40ca4c4a0d111bccd0aae004"
+      ],
+      "expected": 6
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 2,
+  "repetition": 37,
+  "seed": 5938686298311860950,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "2080d74a1b1a6e1aad70683088f13558d50c012a4202ba1bf16c1dfe50c3dd5f",
+  "cases": [
+    {
+      "args": [
+        "33a3e33e41"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "3aaec42c2bda"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "d4da122ce02dbd000d3e"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ec1bc2c0b022e0a2"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "e3ab1dc0ea4ddb02"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "2e4e232aaca2ee"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "3b410b00b0441cc0ed0134"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "1bb1d3a3d022303"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "3ab1eeb01030e33"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "a1a40de3adaa31e"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "e4032d3130ed1edcadb0a"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "dcb4e0413eec2c0bbbd22aabee3"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "14e22bec0a24ddde0beddd31400"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "a4c"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "2c4de2a1ad0022a3"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "44"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "bd1cd333eaea0d0d013ccabc222"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "d0c1cb1c4300ec03a3d23aaac14"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "cc41b"
+      ],
+      "expected": 4
+    }
+  ]
+}

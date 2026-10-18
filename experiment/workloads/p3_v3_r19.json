@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 19,
+  "seed": 12507768364534304269,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "fcc62cd7f350ead246ff5300a746dbef7a121c3a77cb0959ef8e80a5b9fa58f3",
+  "cases": [
+    {
+      "args": [
+        "2ae24ebd332c4b203002eb1ab003a"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ca1031a21ba131bb12c333c1e1d4a1a33"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "bc2e4cd34cabde"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "44a4a33ec3b0022e4"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "0a"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "114ed"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "ea014"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "add3aa3abce111dee11dc2010b4"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "44ac31d1aec02caa31bbcb32ba2dcc1d4e"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "d1"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "020e41dd411e"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "cd3"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "d4e44"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "b1d23a4301dac0eed23daed12e"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dc1e33214a22a10c1c3b0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "eae0e1a204ce0ba2e0b"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "ed4dd"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "3e11c4db1242bed4c4310a2d3aedeb3de40"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "414221ec41ead"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "032"
+      ],
+      "expected": 3
+    }
+  ]
+}

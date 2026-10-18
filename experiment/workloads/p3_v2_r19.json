@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 2,
+  "repetition": 19,
+  "seed": 3655542792473849305,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "36a0efb42f61d852fd1e1d7cffd0c78ee19efcc9e865be8b6e4d17ba7b5bf1e9",
+  "cases": [
+    {
+      "args": [
+        "cb0a341b0dabc0a0bb4143d1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "ccecd20334221e2b331dbdc2e404"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "dc314d"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "d1eb3ded"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "ae4beda01e22210b"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "43a10be112"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "4223"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "0aa1032cbd4e4"
+      ],
+      "expected": 10
+    },
+    {
+      "args": [
+        "aa0e13231114cea2411d1d3c01"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "cc33a4a24a2b21dae1"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "14030acd3cbca020"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "4c01a4b0b43"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "00a3bd0a33a3c1eda2c1dbdd0d42ed"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "2e2304"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "bb2"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "1c0dcecd032d0e00c"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "04b103100cec4d2e4121b0b0ead32a4303c"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "b1432122baaaaea12e04d2bcdb1d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "40aea12e4c"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "23a4a3bb2a2abe21e"
+      ],
+      "expected": 5
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 3,
+  "repetition": 92,
+  "seed": 1549395338432119910,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "5e38efa4bf79bb2c487bb6ca0b4b0efe4d519f7da181475a5b3100272b8a1e3b",
+  "cases": [
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "3a3a3c21bbaee1ecc2dad14d031"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "cdaee1a0cb1d4d3aba24"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "0"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "313d4bdb1ea02e00ab4a20d002023b0eeb3"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "da0d1c2c244030113bec3"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "42031e213d24abcadce42a"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "32c"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "1d1402e2eb1ca04"
+      ],
+      "expected": 8
+    },
+    {
+      "args": [
+        "3d33221cbdabd3"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "ce1bd0ee43dcbccebc3a2acaca3b"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "3d33"
+      ],
+      "expected": 2
+    },
+    {
+      "args": [
+        "a04e0bb3"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "a1d23"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "44a11"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "cc"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "4a3deeca1c021dd4"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "ea123ac2"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "cdbba"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "422c"
+      ],
+      "expected": 2
+    }
+  ]
+}

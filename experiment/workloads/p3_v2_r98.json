@@ -1,0 +1,132 @@
+{
+  "problem": 3,
+  "variant": 2,
+  "repetition": 98,
+  "seed": 745231130220602486,
+  "seed_base": "greenlab-final-v1",
+  "generator_version": 2,
+  "case_count": 20,
+  "input_sha256": "8ebeea382cb1ad8b065ee471424e6f0fa8270c18de60539387201437bd3ddf37",
+  "cases": [
+    {
+      "args": [
+        "e3a14e3ec041dabb2a30e243201413e0"
+      ],
+      "expected": 9
+    },
+    {
+      "args": [
+        "c11a41"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "0e3a2242bb4a3c4ecdcca0144c4a"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "1d0da3d3c"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "dbec0"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "d"
+      ],
+      "expected": 1
+    },
+    {
+      "args": [
+        "eb33ae4a0c00ea41eeece03dbec034b3"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "411441bb0b223e"
+      ],
+      "expected": 3
+    },
+    {
+      "args": [
+        "2410"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "bb4b1a20d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "3bcce4bdada3e3b0c2c01c2c31bdeb"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "a4dae"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "2c440130"
+      ],
+      "expected": 4
+    },
+    {
+      "args": [
+        "cca4103aa10"
+      ],
+      "expected": 6
+    },
+    {
+      "args": [
+        "b2332322240c3be2311ad10240cb1b240d"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        ""
+      ],
+      "expected": 0
+    },
+    {
+      "args": [
+        "db21ed1e2ba1ed21ec0d41a1b0de1"
+      ],
+      "expected": 7
+    },
+    {
+      "args": [
+        "3cee1dddc00b2111e1e4c040b1ebecec"
+      ],
+      "expected": 5
+    },
+    {
+      "args": [
+        "b34eac0ca04aca2a"
+      ],
+      "expected": 7
+    }
+  ]
+}
