@@ -1,4 +1,3 @@
-
 import argparse
 import copy
 import importlib
@@ -7,11 +6,11 @@ import sys
 import time
 from pathlib import Path
 import hashlib
-from experiment.validate_workload import is_correct
-
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
+
+from experiment.validate_workload import is_correct
 
 
 def main():
