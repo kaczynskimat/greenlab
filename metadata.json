@@ -1,5 +1,512 @@
 {
   "problems": {
+    "p387_firstUniqueCharacterInAString": {
+      "leetcode_id": 387,
+      "name": "First Unique Character in a String",
+      "difficulty": "easy",
+      "guideline_id": "G1",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+      "method_name": "firstUniqChar",
+      "modules": {
+        "baseline": "problems.p387_firstUniqueCharacterInAString.baseline",
+        "guideline": "problems.p387_firstUniqueCharacterInAString.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p3_longestSubstringWithoutRepeatingCharacters": {
+      "leetcode_id": 3,
+      "name": "Longest Substring Without Repeating Characters",
+      "difficulty": "medium",
+      "guideline_id": "G1",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "method_name": "lengthOfLongestSubstring",
+      "modules": {
+        "baseline": "problems.p3_longestSubstringWithoutRepeatingCharacters.baseline",
+        "guideline": "problems.p3_longestSubstringWithoutRepeatingCharacters.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p977_squaresOfASortedArray": {
+      "leetcode_id": 977,
+      "name": "Squares of a Sorted Array",
+      "difficulty": "easy",
+      "guideline_id": "G2",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+      "method_name": "sortedSquares",
+      "modules": {
+        "baseline": "problems.p977_squaresOfASortedArray.baseline",
+        "guideline": "problems.p977_squaresOfASortedArray.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p240_searchA2DMatrix": {
+      "leetcode_id": 240,
+      "name": "Search a 2D Matrix II",
+      "difficulty": "medium",
+      "guideline_id": "G2",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+      "method_name": "searchMatrix",
+      "modules": {
+        "baseline": "problems.p240_searchA2DMatrix.baseline",
+        "guideline": "problems.p240_searchA2DMatrix.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": null,
+          "refactoring_description": null
+        }
+      }
+    },
+    "p605_canPlaceFlowers": {
+      "leetcode_id": 605,
+      "name": "Can Place Flowers",
+      "difficulty": "easy",
+      "guideline_id": "G3",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/can-place-flowers/",
+      "method_name": "canPlaceFlowers",
+      "modules": {
+        "baseline": "problems.p605_canPlaceFlowers.baseline",
+        "guideline": "problems.p605_canPlaceFlowers.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Iterates through the entire flowerbed counting plantable spots without early stopping.",
+          "refactoring_description": "Terminates the loop early as soon as count reaches n (G3 - Early termination)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Traverses the flowerbed with a while loop to find all plantable spots without early exit.",
+          "refactoring_description": "Terminates the while loop early as soon as plantable reaches n (G3 - Early termination)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Iterates through the entire array simulating flower placement without early exit.",
+          "refactoring_description": "Returns True immediately inside the loop once n reaches 0 (G3 - Early termination)."
+        }
+      }
+    },
+    "p15_3sum": {
+      "leetcode_id": 15,
+      "name": "3Sum",
+      "difficulty": "medium",
+      "guideline_id": "G3",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/3sum/",
+      "method_name": "threeSum",
+      "modules": {
+        "baseline": "problems.p15_3sum.baseline",
+        "guideline": "problems.p15_3sum.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search without breaking early when the fixed anchor element is positive.",
+          "refactoring_description": "Breaks outer loop early when nums[i] > 0 since sorted numbers cannot sum to zero (G3 - Loop optimization)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search continuing across all indices without early positive-anchor exit.",
+          "refactoring_description": "Adds early break when the fixed anchor exceeds zero (G3 - Loop optimization)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Two-pointer search iterating through all elements without early termination.",
+          "refactoring_description": "Breaks outer loop early when nums[i] > 0 and skips duplicate values (G3 - Loop optimization)."
+        }
+      }
+    },
+    "p383_ransomNote": {
+      "leetcode_id": 383,
+      "name": "Ransom Note",
+      "difficulty": "easy",
+      "guideline_id": "G6",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/ransom-note/",
+      "method_name": "canConstruct",
+      "modules": {
+        "baseline": "problems.p383_ransomNote.baseline",
+        "guideline": "problems.p383_ransomNote.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Converts magazine into a full list and mutates it with remove(), creating unnecessary list memory.",
+          "refactoring_description": "Compares character frequencies directly using set(ransomNote) and count() without allocating a list (G6 - Avoid storing unnecessary data)."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Constructs two separate defaultdict(int) frequency hash tables for both magazine and ransomNote.",
+          "refactoring_description": "Builds only a single frequency map for magazine and decrements in-place, eliminating the second dictionary (G6 - Avoid storing unnecessary data)."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Allocates two separate 26-element integer arrays to count letter frequencies for both strings.",
+          "refactoring_description": "Allocates a single 26-element array for magazine counts and decrements counts for ransomNote (G6 - Avoid storing unnecessary data)."
+        }
+      }
+    },
+    "p442_findAllDuplicates": {
+      "leetcode_id": 442,
+      "name": "Find All Duplicates in an Array",
+      "difficulty": "medium",
+      "guideline_id": "G6",
+      "guideline_family": "Code Optimization",
+      "problem_url": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+      "method_name": "findDuplicates",
+      "modules": {
+        "baseline": "problems.p442_findAllDuplicates.baseline",
+        "guideline": "problems.p442_findAllDuplicates.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Unused intermediate key and value lists",
+          "refactoring_description": "Removes unused intermediate lists"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Unused array length variable",
+          "refactoring_description": "Removes unused array length variable"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Replaces Counter-based counting with set membership"
+        }
+      }
+    },
+    "p509_fibonacciNumber": {
+      "leetcode_id": 509,
+      "name": "Fibonacci Number",
+      "difficulty": "easy",
+      "guideline_id": "G18",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/fibonacci-number/",
+      "method_name": "fib",
+      "modules": {
+        "baseline": "problems.p509_fibonacciNumber.baseline",
+        "guideline": "problems.p509_fibonacciNumber.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Memoizes recursive Fibonacci results using a per-call dictionary"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Caches the inner recursive function with functools.cache"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Caches the recursive Fibonacci helper with functools.cache"
+        }
+      }
+    },
+    "p322_coinChange": {
+      "leetcode_id": 322,
+      "name": "Coin Change",
+      "difficulty": "medium",
+      "guideline_id": "G18",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/coin-change/",
+      "method_name": "coinChange",
+      "modules": {
+        "baseline": "problems.p322_coinChange.baseline",
+        "guideline": "problems.p322_coinChange.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": null,
+          "refactoring_description": "Memoizes recursive findCombination states"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Recursive solution without memoization",
+          "refactoring_description": "Caches recursive subproblem results"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Recursive solution without dynamic-programming cache",
+          "refactoring_description": "Stores subproblem results in a DP table"
+        }
+      }
+    },
+    "p125_validPalindrome": {
+      "leetcode_id": 125,
+      "name": "Valid Palindrome",
+      "difficulty": "easy",
+      "guideline_id": "G19",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/valid-palindrome/",
+      "method_name": "isPalindrome",
+      "modules": {
+        "baseline": "problems.p125_validPalindrome.baseline",
+        "guideline": "problems.p125_validPalindrome.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Clean string with list comprehension and check symmetry with two pointers",
+          "refactoring_description": "Direct character checking without helper functions"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Wraps char.isalnum() in an inner helper function is_valid()",
+          "refactoring_description": "Inlines is_valid() call directly into the while condition (G19)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Uses a deque with an inner helper function is_valid() for filtering",
+          "refactoring_description": "Inlines is_valid() directly in the character loop (G19)"
+        }
+      }
+    },
+    "p200_numberOfIslands": {
+      "leetcode_id": 200,
+      "name": "Number of Islands",
+      "difficulty": "medium",
+      "guideline_id": "G19",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/number-of-islands/",
+      "method_name": "numIslands",
+      "modules": {
+        "baseline": "problems.p200_numberOfIslands.baseline",
+        "guideline": "problems.p200_numberOfIslands.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Standard BFS island traversal calling an inner bfs() helper function",
+          "refactoring_description": "Inlines BFS queue processing directly into the nested loops, eliminating function calls (G19)"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Iterative DFS using a stack and an inner in_bounds() helper function",
+          "refactoring_description": "Inlines the in_bounds() boundary check into the neighbor loop (G19)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Union-Find structure using an inner in_bounds() boundary check helper",
+          "refactoring_description": "Inlines the in_bounds() boundary check directly (G19)"
+        }
+      }
+    },
+    "p867_transposeMatrix": {
+      "leetcode_id": 867,
+      "name": "Transpose Matrix",
+      "difficulty": "easy",
+      "guideline_id": "G24",
+      "guideline_family": "Other",
+      "problem_url": "https://leetcode.com/problems/transpose-matrix/",
+      "method_name": "transpose",
+      "modules": {
+        "baseline": "problems.p867_transposeMatrix.baseline",
+        "guideline": "problems.p867_transposeMatrix.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Pre-allocates 2D list and populates with nested row and column loops",
+          "refactoring_description": "Replaces nested Python loops with vectorized np.transpose(matrix).tolist() (G24)"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Transposes matrix using nested list comprehension",
+          "refactoring_description": "Replaces nested list comprehension with vectorized np.transpose(matrix).tolist() (G24)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Appends to empty column lists using enumerate across rows",
+          "refactoring_description": "Replaces sequential list append operations with vectorized np.transpose(matrix).tolist() (G24)"
+        }
+      }
+    },
     "p238_productOfArrayExceptSelf": {
       "leetcode_id": 238,
       "name": "Product of Array Except Self",
@@ -39,45 +546,6 @@
         }
       }
     },
-    "p49_groupAnagrams": {
-      "leetcode_id": 49,
-      "name": "Group Anagrams",
-      "difficulty": "medium",
-      "guideline_id": "G27",
-      "guideline_family": "Other",
-      "problem_url": "https://leetcode.com/problems/group-anagrams/",
-      "method_name": "groupAnagrams",
-      "modules": {
-        "baseline": "problems.p49_groupAnagrams.baseline",
-        "guideline": "problems.p49_groupAnagrams.guideline"
-      },
-      "variants": {
-        "v1": {
-          "class_name": "SolutionV1",
-          "baseline_smell_added_by_us": false,
-          "baseline_origin": "leetcode_original",
-          "guideline_origin": "manual_refactoring",
-          "baseline_description": "Character count keys with explicit dictionary initialization.",
-          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
-        },
-        "v2": {
-          "class_name": "SolutionV2",
-          "baseline_smell_added_by_us": false,
-          "baseline_origin": "leetcode_original",
-          "guideline_origin": "manual_refactoring",
-          "baseline_description": "Character count keys with defaultdict grouping.",
-          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
-        },
-        "v3": {
-          "class_name": "SolutionV3",
-          "baseline_smell_added_by_us": false,
-          "baseline_origin": "leetcode_original",
-          "guideline_origin": "manual_refactoring",
-          "baseline_description": "Sorted string keys with defaultdict grouping.",
-          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
-        }
-      }
-    },
     "p905_sortArrayByParity": {
       "leetcode_id": 905,
       "name": "Sort Array By Parity",
@@ -114,6 +582,45 @@
           "guideline_origin": "manual_refactoring",
           "baseline_description": "Two-pointer partition using temporary-variable swaps.",
           "refactoring_description": "Replaced the working list with an unsigned integer array; converted output to a list."
+        }
+      }
+    },
+    "p49_groupAnagrams": {
+      "leetcode_id": 49,
+      "name": "Group Anagrams",
+      "difficulty": "medium",
+      "guideline_id": "G27",
+      "guideline_family": "Other",
+      "problem_url": "https://leetcode.com/problems/group-anagrams/",
+      "method_name": "groupAnagrams",
+      "modules": {
+        "baseline": "problems.p49_groupAnagrams.baseline",
+        "guideline": "problems.p49_groupAnagrams.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Character count keys with explicit dictionary initialization.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Character count keys with defaultdict grouping.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Sorted string keys with defaultdict grouping.",
+          "refactoring_description": "Replaced group lists with deques; converted groups back to lists."
         }
       }
     }

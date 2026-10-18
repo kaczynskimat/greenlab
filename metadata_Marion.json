@@ -1,0 +1,121 @@
+{
+  "problems": {
+    "p125_validPalindrome": {
+      "leetcode_id": 125,
+      "name": "Valid Palindrome",
+      "difficulty": "easy",
+      "guideline_id": "G19",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/valid-palindrome/",
+      "method_name": "isPalindrome",
+      "modules": {
+        "baseline": "problems.p125_validPalindrome.baseline",
+        "guideline": "problems.p125_validPalindrome.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Clean string with list comprehension and check symmetry with two pointers",
+          "refactoring_description": "Direct character checking without helper functions"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Wraps char.isalnum() in an inner helper function is_valid()",
+          "refactoring_description": "Inlines is_valid() call directly into the while condition (G19)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Uses a deque with an inner helper function is_valid() for filtering",
+          "refactoring_description": "Inlines is_valid() directly in the character loop (G19)"
+        }
+      }
+    },
+    "p200_numberOfIslands": {
+      "leetcode_id": 200,
+      "name": "Number of Islands",
+      "difficulty": "medium",
+      "guideline_id": "G19",
+      "guideline_family": "Function Calls",
+      "problem_url": "https://leetcode.com/problems/number-of-islands/",
+      "method_name": "numIslands",
+      "modules": {
+        "baseline": "problems.p200_numberOfIslands.baseline",
+        "guideline": "problems.p200_numberOfIslands.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Standard BFS island traversal calling an inner bfs() helper function",
+          "refactoring_description": "Inlines BFS queue processing directly into the nested loops, eliminating function calls (G19)"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Iterative DFS using a stack and an inner in_bounds() helper function",
+          "refactoring_description": "Inlines the in_bounds() boundary check into the neighbor loop (G19)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": true,
+          "baseline_origin": "leetcode_with_injected_smell",
+          "guideline_origin": "leetcode_original",
+          "baseline_description": "Union-Find structure using an inner in_bounds() boundary check helper",
+          "refactoring_description": "Inlines the in_bounds() boundary check directly (G19)"
+        }
+      }
+    },
+    "p867_transposeMatrix": {
+      "leetcode_id": 867,
+      "name": "Transpose Matrix",
+      "difficulty": "easy",
+      "guideline_id": "G24",
+      "guideline_family": "Other",
+      "problem_url": "https://leetcode.com/problems/transpose-matrix/",
+      "method_name": "transpose",
+      "modules": {
+        "baseline": "problems.p867_transposeMatrix.baseline",
+        "guideline": "problems.p867_transposeMatrix.guideline"
+      },
+      "variants": {
+        "v1": {
+          "class_name": "SolutionV1",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Pre-allocates 2D list and populates with nested row and column loops",
+          "refactoring_description": "Replaces nested Python loops with vectorized np.transpose(matrix).tolist() (G24)"
+        },
+        "v2": {
+          "class_name": "SolutionV2",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Transposes matrix using nested list comprehension",
+          "refactoring_description": "Replaces nested list comprehension with vectorized np.transpose(matrix).tolist() (G24)"
+        },
+        "v3": {
+          "class_name": "SolutionV3",
+          "baseline_smell_added_by_us": false,
+          "baseline_origin": "leetcode_original",
+          "guideline_origin": "manual_refactoring",
+          "baseline_description": "Appends to empty column lists using enumerate across rows",
+          "refactoring_description": "Replaces sequential list append operations with vectorized np.transpose(matrix).tolist() (G24)"
+        }
+      }
+    }
+  }
+}
