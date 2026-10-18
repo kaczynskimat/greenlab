@@ -23,7 +23,7 @@ class SimulatedBookingCutoff(SystemExit):
 
 
 def assert_pairs(rows):
-    assert len(rows) == 4, f"Expected 4 pilot rows, got {len(rows)}"
+    assert len(rows) == 9600, f"Expected 9600 experiment rows, got {len(rows)}"
     for i in range(0, len(rows), 2):
         a, b = rows[i:i + 2]
         assert (a["problem"], a["variant"]) == (b["problem"], b["variant"])
@@ -37,6 +37,9 @@ def main():
     config = RunnerConfig()
     generated = config.create_run_table_model().generate_experiment_run_table()
     assert_pairs(generated)
+
+    # Use two complete pairs for the interruption/recovery simulation.
+    generated = generated[:4]
     original_ids = [r["__run_id"] for r in generated]
     assert len(set(original_ids)) == 4
 
@@ -75,7 +78,7 @@ def main():
 
         # Simulate a fresh process: regenerate the same schedule and restore CSV.
         restarted_config = RunnerConfig()
-        regenerated = restarted_config.create_run_table_model().generate_experiment_run_table()
+        regenerated = restarted_config.create_run_table_model().generate_experiment_run_table()[:4]
         assert [r["__run_id"] for r in regenerated] == original_ids
         saved = manager.read_run_table()
         by_id = {r["__run_id"]: r for r in regenerated}
