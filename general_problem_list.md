@@ -3,15 +3,15 @@
 
 | Guideline ID | Family             | Difficulty | LeetCode # | Problem Name                                    | LeetCode URL |
 |--------------|--------------------|------------|------------|-------------------------------------------------|--------------|
-| G1           | Code Optimization	 | Easy	      | #643	      | Maximum Average Subarray I                      | 	https://leetcode.com/problems/maximum-average-subarray-i/        |
+| G1           | Code Optimization	 | Easy	      | #387	      | First Unique Character in a String I                      | 	https://leetcode.com/problems/first-unique-character-in-a-string/        |
 | G1           | 	Code Optimization | 	Medium    | 	#3        | 	Longest Substring Without Repeating Characters | 	https://leetcode.com/problems/longest-substring-without-repeating-characters/        |
 | G2	          | Code Optimization  | 	Easy	     | #977	      | Squares of a Sorted Array	                      | https://leetcode.com/problems/squares-of-a-sorted-array/         |
-| G2	          | Code Optimization	 | Medium	    | #56        | 	Merge Intervals	                               | https://leetcode.com/problems/merge-intervals/         |
+| G2	          | Code Optimization	 | Medium	    | #240        | 	Merge Intervals	                               | https://leetcode.com/problems/search-a-2d-matrix-ii/        |
 | G3	          | Code Optimization	 | Easy	      | #605       | 	Can Place Flowers	                            | https://leetcode.com/problems/can-place-flowers/         |
 | G3	          | Code Optimization  | 	Medium	   | #15	       | 3Sum	                                           | https://leetcode.com/problems/3sum/         |
 | G6	          | Code Optimization	 | Easy	      | #383	       | Ransom Note	                                    | https://leetcode.com/problems/ransom-note/         |
 | G6	          | Code Optimization  | 	Medium	   | #442       | 	Find All Duplicates in an Array                | 	https://leetcode.com/problems/find-all-duplicates-in-an-array/        |
-| G18	         | Function Calls	    | Easy	      | #746	      | Min Cost Climbing Stairs	                       | https://leetcode.com/problems/min-cost-climbing-stairs/         |
+| G18	         | Function Calls	    | Easy	      | #509	      | Fibonacci Number	                       | https://leetcode.com/problems/fibonacci-number/         |
 | G18	         | Function Calls     | 	Medium	   | #322	      | Coin Change	                                    | https://leetcode.com/problems/coin-change/         |
 | G19	         | Function Calls     | 	Easy	     | #125	      | Valid Palindrome	                               | https://leetcode.com/problems/valid-palindrome/         |
 | G19	         | Function Calls	    | Medium	    | #200	      | Number of Islands                               | 	https://leetcode.com/problems/number-of-islands/        |
