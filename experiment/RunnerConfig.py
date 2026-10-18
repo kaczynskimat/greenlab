@@ -141,6 +141,7 @@ class RunnerConfig:
 
         remote_command = (
             f"cd {shlex.quote(self.REMOTE_PROJECT)} && "
+            f"timeout --signal=TERM --kill-after=5s 115s "
             f"{shlex.quote(self.REMOTE_PYTHON)} "
             f"experiment/measure.py "
             f"--treatment {shlex.quote(str(treatment))} "
