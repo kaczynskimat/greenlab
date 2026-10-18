@@ -13,6 +13,9 @@ import json
 import re
 import shlex
 import subprocess
+from PairedRunTableModel import PairedRunTableModel
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 
 class RunnerConfig:
@@ -52,10 +55,11 @@ class RunnerConfig:
         variant = FactorModel("variant", [1])
         treatment = FactorModel("treatment", ["original", "modified"])
 
-        self.run_table_model = RunTableModel(
+        self.run_table_model = PairedRunTableModel(
             factors=[problem, variant, treatment],
             exclude_combinations=[],
             repetitions=2,
+            seed=20261019,
             data_columns=[
                 "package_energy_j",
                 "dram_energy_j",
@@ -74,7 +78,20 @@ class RunnerConfig:
         pass
 
     def before_run(self) -> None:
-        pass
+        booking_end = datetime(
+            2026, 10, 20, 0, 0,
+            tzinfo=ZoneInfo("Europe/Amsterdam"),
+        )
+        safety_margin = timedelta(minutes=10)
+        cutoff = booking_end - safety_margin
+
+        now = datetime.now(ZoneInfo("Europe/Amsterdam"))
+
+        if now >= cutoff:
+            raise SystemExit(
+                f"Booking cutoff reached at {now.isoformat()}. "
+                "Stopping before the next measurement."
+            )
 
     def start_run(self, context: RunnerContext) -> None:
         self.result = None

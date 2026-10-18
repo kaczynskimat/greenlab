@@ -26,6 +26,8 @@ def main():
     parser.add_argument("--problem", type=int, default=322)
     parser.add_argument("--variant", type=int, choices=[1, 2, 3], default=1)
     parser.add_argument("--run-id", required=True)
+    parser.add_argument("--repetition", type=int, default=0)
+
     args = parser.parse_args()
 
     if args.iterations < 1:
@@ -54,6 +56,7 @@ def main():
         "--iterations", str(args.iterations),
         "--problem", str(args.problem),
         "--variant", str(args.variant),
+        "--repetition", str(args.repetition),
     ]
 
     start = time.perf_counter()
@@ -181,6 +184,7 @@ def main():
         "variant": args.variant,
         "treatment": args.treatment,
         "iterations": args.iterations,
+        "repetition": args.repetition,
 
         "package_energy_j": package_energy,
         "dram_energy_j": dram_energy,

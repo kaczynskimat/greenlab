@@ -1,4 +1,3 @@
-from git import List
 from typing import List
 
 # -----------------------------------------------
