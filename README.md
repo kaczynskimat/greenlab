@@ -26,7 +26,8 @@ Measurements include CPU package energy, DRAM energy, benchmark runtime, measure
 | `experiment/benchmark.py` | Validates and executes a treatment on a frozen workload. |
 | `experiment/measure.py` | Invokes EnergiBridge and collects process-level CPU/RSS metrics. |
 | `experiment/launch_experiment.py` | Launches Experiment Runner with deadline and stall safeguards. |
-| `experiment/shared-results/YYYY-MM-DD/` | Dated checkpoints (`run_table.csv`, `metadata.json`). |
+| `experiment/shared-results/YYYY-MM-DD/` | Historical experiment checkpoints and snapshots. |
+| `experiment/shared-results/final/run_table.csv` | Definitive experiment results: 9,592 completed runs and 8 incomplete runs. |
 
 ## External tools and environment
 
@@ -60,11 +61,11 @@ The experiment's run table contains:
 | `avg_rss_bytes`, `peak_rss_bytes`, `rss_samples` | Process RSS summaries and number of memory samples. |
 | `workload_seed`, `workload_sha256` | Input-workload provenance. |
 
-## Final  experimental dataset
-- **Completed:** 9589 measurements
-- **Incomplete:** 11 measurements
-- **Final run table:** [run_table.csv](experiment/shared-results/2026-10-23/run_table.csv)
-- **Raw measurements:** [Download the GitHub Release archive](https://github.com/kaczynskimat/greenlab/releases/tag/greenlab-data-2026-10-23)
+## Final experimental dataset
+- **Completed:** 9592 measurements
+- **Incomplete:** 8 measurements
+- **Final run table:** [run_table.csv](experiment/shared-results/final/run_table.csv)
+- **Raw measurements:** [Download the GitHub Release archive](https://github.com/kaczynskimat/greenlab/releases/tag/greenlab-data-final-2026-10-23)
 
 
 ## Running or resuming the experiment
