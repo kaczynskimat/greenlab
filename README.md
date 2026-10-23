@@ -61,6 +61,12 @@ The experiment's run table contains:
 | `avg_rss_bytes`, `peak_rss_bytes`, `rss_samples` | Process RSS summaries and number of memory samples. |
 | `workload_seed`, `workload_sha256` | Input-workload provenance. |
 
+## Final  experimental dataset
+- **Completed:** 9589 measurements
+- **Incomplete:** 11 measurements
+- **Final run table:** [run_table.csv](experiment/shared-results/2026-10-23/run_table.csv)
+- **Raw measurements:** [Download the GitHub Release archive](https://github.com/kaczynskimat/greenlab/releases/tag/greenlab-data-2026-10-23)
+
 ## Running or resuming the experiment
 ```bash
 cd /path/to/greenlab
