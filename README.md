@@ -36,7 +36,6 @@ Measurements include CPU package energy, DRAM energy, benchmark runtime, measure
 - **Testbed** VU Green Lab `gl3`, Linux (Ubuntu 24.04.4 LTS), 2 × Intel Xeon Silver 4208 CPUs (16 physical cores). Re-running measurements elsewhere may produce different energy and performance results. An SSH-accessible host with an installed `energibridge` executable is needed for the remote experiment.
 - **Orchestration machine:** a separate Linux machine running Experiment Runner and connecting to the testbed by SSH.
 
-The repository currently does not include a root `requirements.txt` or `pyproject.toml`; a frozen dependency specification should be added before submission. Analysis software dependencies must be documented separately when analysis scripts are supplied.
 
 ## Experiment Architecture
 
@@ -60,6 +59,13 @@ The experiment's run table contains:
 | `avg_cpu_usage_percent` | Process-level CPU utilization derived using `psutil`. |
 | `avg_rss_bytes`, `peak_rss_bytes`, `rss_samples` | Process RSS summaries and number of memory samples. |
 | `workload_seed`, `workload_sha256` | Input-workload provenance. |
+
+## Final  experimental dataset
+- **Completed:** 9589 measurements
+- **Incomplete:** 11 measurements
+- **Final run table:** [run_table.csv](experiment/shared-results/2026-10-23/run_table.csv)
+- **Raw measurements:** [Download the GitHub Release archive](https://github.com/kaczynskimat/greenlab/releases/tag/greenlab-data-2026-10-23)
+
 
 ## Running or resuming the experiment
 ```bash

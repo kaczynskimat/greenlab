@@ -100,7 +100,7 @@ class RunnerConfig:
 
     def before_run(self) -> None:
         booking_end = datetime(
-            2026, 10, 19, 12, 0,
+            2026, 10, 23, 11, 0,
             tzinfo=ZoneInfo("Europe/Amsterdam"),
         )
         safety_margin = timedelta(minutes=20)
