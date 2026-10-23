@@ -30,3 +30,6 @@ experiment-results/
 # Temporary files
 *.tmp
 *.log
+# Locally generated experiment runs and raw measurement backups
+experiment/experiments/
+experiment/raw-backup/
