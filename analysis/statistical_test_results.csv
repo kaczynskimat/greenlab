@@ -1,0 +1,9 @@
+Hypothesis,Test_Name,Statistic,p_raw,Effect_Metric,Effect_Size,Magnitude,p_adjusted_BH,Significant_FDR_05
+H01 (Overall dE != 0),Wilcoxon signed-rank,683,0.332423704864939,Cliff's delta,0.16666666666666666,small,0.37991280555993023,NO
+H02a (Across 8 Guidelines),Kruskal-Wallis,30.09863945578232,9.108394332961772e-5,Epsilon-squared,0.5774659863945579,large,1.8216788665923543e-4,YES
+H02b (Across 3 Families),Kruskal-Wallis,27.515306122448976,1.0595639936279012e-6,Epsilon-squared,0.5670068027210884,large,2.8255039830077364e-6,YES
+H02c (Easy vs Medium),Wilcoxon rank-sum,384,0.04893279078789403,Cliff's delta,0.3333333333333333,medium,0.07829246526063045,NO
+H03a (Memory Change != 0),Wilcoxon signed-rank,617,0.770048439352899,Cliff's delta,0.20833333333333334,small,0.770048439352899,NO
+H03a (CPU Change != 0),Wilcoxon signed-rank,690,0.29785729513089865,Cliff's delta,0.16666666666666666,small,0.37991280555993023,NO
+H03b (Correlation dE ~ dMem),Spearman correlation,0.662613981762918,2.8917662448603215e-7,Spearman rho,0.662613981762918,large,1.1567064979441286e-6,YES
+H03b (Correlation dE ~ dCPU),Spearman correlation,0.7065783760312636,2.0026338405736103e-8,Spearman rho,0.7065783760312636,large,1.6021070724588882e-7,YES
