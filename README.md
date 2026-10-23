@@ -107,54 +107,56 @@ Replace `$RUNNER_ROOT`, `$REPO`, Python paths, deadlines, and SSH settings for a
 | G27	         | Other	             | Easy	      | #905	      | Sort Array By Parity                            | 	https://leetcode.com/problems/sort-array-by-parity/        |
 | G27	         | Other              | 	Medium	   | #49	       | Group Anagrams                                  | https://leetcode.com/problems/group-anagrams/         |
 
-## 
-| Guideline ID | LeetCode # & Name (Difficulty)                                      | Solution Variant | Smell Added By Us? | Description of Modification / Refactoring (Baseline vs. Refactored) |
-|:-------------|:--------------------------------------------------------------------| :--- | :--- | :--- |
-| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 1 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:**  |
-| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 2 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:**  |
-| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 3 | **No** (Retrieved from LC) | **Baseline:**  <br>**Refactored:** |
-| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 1 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
-| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 2 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
-| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 3 | **No** (Retrieved from LC) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 1 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 1 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 2 | **Yes** (Injected) | **Baseline:** <br>**Refactored:** |
-| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 3 | **Yes** (Injected) | **Baseline:** <br>**Refactored:**  |
-| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 1 | | |
-| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 2 | | |
-| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 3 | | |
-| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 1 | | |
-| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 2 | | |
-| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 3 | | |
-| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 1 | | |
-| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 2 | | |
-| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 3 | | |
-| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 1 | | |
-| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 2 | | |
-| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 3 | | |
-| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 1 | | |
-| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 2 | | |
-| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 3 | | |
-| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 1 | | |
-| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 2 | | |
-| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 3 | | |
-| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 1 | | |
-| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 2 | | |
-| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 3 | | |
-| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 1 | | |
-| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 2 | | |
-| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 3 | | |
-| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 1 | | |
-| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 2 | | |
-| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 3 | | |
-| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 1 | | |
-| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 2 | | |
-| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 3 | | |
-| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 1 | | |
-| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 2 | | |
-| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 3 | | |
-| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 1 | | |
-| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 2 | | |
-| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 3 | | |
+### Implementation Variants and Refactorings:
+| Guideline ID | LeetCode # & Name (Difficulty)                                      | Solution Variant | Smell Added By Us?                                                                                             |
+|:-------------|:--------------------------------------------------------------------| :--- |:---------------------------------------------------------------------------------------------------------------|
+| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G1**       | #387 (First Unique Character in a String) <br> *(Easy)*             | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G1**       | #3 (Longest Substring Without Repeating Characters) <br> *(Medium)* | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 1 | **Yes** (Injected)                                                                                             |
+| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 2 | **Yes** (Injected)                                                                                             |
+| **G2**       | #977 (Squares of a Sorted Array) <br> *(Easy)*                      | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 1 | **Yes** (Injected)                                                                                             |
+| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 2 | **Yes** (Injected)                                                                                             |
+| **G2**       | #240 (Search a 2D Matrix II) <br> *(Medium)*                        | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G3**       | #605 (Can Place Flowers) <br> *(Easy)*                              | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G3**       | #15 (3Sum) <br> *(Medium)*                                          | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G6**       | #383 (Ransom Note) <br> *(Easy)*                                    | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G6**       | #442 (Find All Duplicates in an Array) <br> *(Medium)*              | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G18**      | #509 (Fibonacci Number) <br> *(Easy)*                               | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 2 | **Yes** (Injected)                                                                                             |
+| **G18**      | #322 (Coin Change) <br> *(Medium)*                                  | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 2 | **Yes** (Injected)                                                                                             |
+| **G19**      | #125 (Valid Palindrome) <br> *(Easy)*                               | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 2 | **Yes** (Injected)                                                                                             |
+| **G19**      | #200 (Number of Islands) <br> *(Medium)*                            | Solution 3 | **Yes** (Injected)                                                                                             |
+| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G24**      | #867 (Transpose Matrix) <br> *(Easy)*                               | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G24**      | #238 (Product of Array Except Self) <br> *(Medium)*                 | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #905 (Sort Array By Parity) <br> *(Easy)*                           | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 1 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 2 | **No** (Retrieved from LC)                                                                                     |
+| **G27**      | #49 (Group Anagrams) <br> *(Medium)*                                | Solution 3 | **No** (Retrieved from LC)                                                                                     |
+
+Baseline and refactoring descriptions, where available, are provided in [`metadata.json`](metadata.json).
